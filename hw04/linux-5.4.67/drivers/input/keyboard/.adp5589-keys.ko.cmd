@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/adp5589-keys.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/keyboard/adp5589-keys.ko drivers/input/keyboard/adp5589-keys.o drivers/input/keyboard/adp5589-keys.mod.o;  true

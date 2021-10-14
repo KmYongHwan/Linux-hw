@@ -1,0 +1,1 @@
+cmd_drivers/scsi/pcmcia/qlogic_cs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/pcmcia/qlogic_cs.ko drivers/scsi/pcmcia/qlogic_cs.o drivers/scsi/pcmcia/qlogic_cs.mod.o;  true

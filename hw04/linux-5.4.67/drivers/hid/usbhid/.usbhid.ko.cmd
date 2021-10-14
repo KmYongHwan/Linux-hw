@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbhid.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/usbhid/usbhid.ko drivers/hid/usbhid/usbhid.o drivers/hid/usbhid/usbhid.mod.o;  true

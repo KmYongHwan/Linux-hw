@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/ipu3/ipu3-imgu.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/media/ipu3/ipu3-imgu.ko drivers/staging/media/ipu3/ipu3-imgu.o drivers/staging/media/ipu3/ipu3-imgu.mod.o;  true

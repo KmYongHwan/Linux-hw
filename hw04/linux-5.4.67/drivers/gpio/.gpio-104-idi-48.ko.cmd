@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-104-idi-48.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpio/gpio-104-idi-48.ko drivers/gpio/gpio-104-idi-48.o drivers/gpio/gpio-104-idi-48.mod.o;  true

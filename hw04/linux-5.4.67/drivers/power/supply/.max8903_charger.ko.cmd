@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/max8903_charger.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/max8903_charger.ko drivers/power/supply/max8903_charger.o drivers/power/supply/max8903_charger.mod.o;  true

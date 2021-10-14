@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/wilco_ec/wilco_ec.mod := { echo  drivers/platform/chrome/wilco_ec/core.o drivers/platform/chrome/wilco_ec/mailbox.o drivers/platform/chrome/wilco_ec/properties.o drivers/platform/chrome/wilco_ec/sysfs.o; echo; } > drivers/platform/chrome/wilco_ec/wilco_ec.mod

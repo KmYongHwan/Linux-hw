@@ -1,0 +1,1 @@
+cmd_drivers/mtd/chips/gen_probe.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/chips/gen_probe.ko drivers/mtd/chips/gen_probe.o drivers/mtd/chips/gen_probe.mod.o;  true

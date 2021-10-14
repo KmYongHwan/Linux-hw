@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tiny/st7735r.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/tiny/st7735r.ko drivers/gpu/drm/tiny/st7735r.o drivers/gpu/drm/tiny/st7735r.mod.o;  true

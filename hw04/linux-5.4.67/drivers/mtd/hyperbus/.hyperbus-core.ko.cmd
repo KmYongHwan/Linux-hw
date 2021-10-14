@@ -1,0 +1,1 @@
+cmd_drivers/mtd/hyperbus/hyperbus-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/hyperbus/hyperbus-core.ko drivers/mtd/hyperbus/hyperbus-core.o drivers/mtd/hyperbus/hyperbus-core.mod.o;  true

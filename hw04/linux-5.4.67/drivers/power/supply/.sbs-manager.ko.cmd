@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/sbs-manager.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/sbs-manager.ko drivers/power/supply/sbs-manager.o drivers/power/supply/sbs-manager.mod.o;  true

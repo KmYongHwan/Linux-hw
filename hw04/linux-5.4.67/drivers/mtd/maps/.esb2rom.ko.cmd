@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/esb2rom.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/maps/esb2rom.ko drivers/mtd/maps/esb2rom.o drivers/mtd/maps/esb2rom.mod.o;  true

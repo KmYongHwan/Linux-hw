@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/xen/drm_xen_front.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/xen/drm_xen_front.ko drivers/gpu/drm/xen/drm_xen_front.o drivers/gpu/drm/xen/drm_xen_front.mod.o;  true

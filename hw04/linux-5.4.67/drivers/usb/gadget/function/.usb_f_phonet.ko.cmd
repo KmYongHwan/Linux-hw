@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_phonet.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/gadget/function/usb_f_phonet.ko drivers/usb/gadget/function/usb_f_phonet.o drivers/usb/gadget/function/usb_f_phonet.mod.o;  true

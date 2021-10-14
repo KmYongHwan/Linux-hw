@@ -1,0 +1,1 @@
+cmd_drivers/scsi/aha1740.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/aha1740.ko drivers/scsi/aha1740.o drivers/scsi/aha1740.mod.o;  true

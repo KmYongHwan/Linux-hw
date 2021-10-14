@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/cx88/cx88-alsa.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/cx88/cx88-alsa.ko drivers/media/pci/cx88/cx88-alsa.o drivers/media/pci/cx88/cx88-alsa.mod.o;  true

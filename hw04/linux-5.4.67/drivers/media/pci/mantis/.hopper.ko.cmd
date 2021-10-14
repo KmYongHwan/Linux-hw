@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/mantis/hopper.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/mantis/hopper.ko drivers/media/pci/mantis/hopper.o drivers/media/pci/mantis/hopper.mod.o;  true

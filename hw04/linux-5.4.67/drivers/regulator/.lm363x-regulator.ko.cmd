@@ -1,0 +1,1 @@
+cmd_drivers/regulator/lm363x-regulator.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/lm363x-regulator.ko drivers/regulator/lm363x-regulator.o drivers/regulator/lm363x-regulator.mod.o;  true

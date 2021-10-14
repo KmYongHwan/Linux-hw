@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/s5c73m3/s5c73m3.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/media/i2c/s5c73m3/s5c73m3.o drivers/media/i2c/s5c73m3/s5c73m3-core.o drivers/media/i2c/s5c73m3/s5c73m3-spi.o drivers/media/i2c/s5c73m3/s5c73m3-ctrls.o

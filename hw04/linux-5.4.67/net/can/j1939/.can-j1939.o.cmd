@@ -1,0 +1,1 @@
+cmd_net/can/j1939/can-j1939.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o net/can/j1939/can-j1939.o net/can/j1939/address-claim.o net/can/j1939/bus.o net/can/j1939/main.o net/can/j1939/socket.o net/can/j1939/transport.o

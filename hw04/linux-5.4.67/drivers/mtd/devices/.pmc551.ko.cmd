@@ -1,0 +1,1 @@
+cmd_drivers/mtd/devices/pmc551.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/devices/pmc551.ko drivers/mtd/devices/pmc551.o drivers/mtd/devices/pmc551.mod.o;  true

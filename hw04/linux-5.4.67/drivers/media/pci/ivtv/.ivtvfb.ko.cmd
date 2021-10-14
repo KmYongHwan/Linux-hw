@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/ivtv/ivtvfb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/ivtv/ivtvfb.ko drivers/media/pci/ivtv/ivtvfb.o drivers/media/pci/ivtv/ivtvfb.mod.o;  true

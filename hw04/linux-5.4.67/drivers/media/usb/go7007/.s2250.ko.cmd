@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/go7007/s2250.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/go7007/s2250.ko drivers/media/usb/go7007/s2250.o drivers/media/usb/go7007/s2250.mod.o;  true

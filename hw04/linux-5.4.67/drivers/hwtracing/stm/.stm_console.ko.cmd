@@ -1,0 +1,1 @@
+cmd_drivers/hwtracing/stm/stm_console.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwtracing/stm/stm_console.ko drivers/hwtracing/stm/stm_console.o drivers/hwtracing/stm/stm_console.mod.o;  true

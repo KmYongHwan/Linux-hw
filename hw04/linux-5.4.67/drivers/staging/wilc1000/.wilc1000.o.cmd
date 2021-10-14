@@ -1,0 +1,1 @@
+cmd_drivers/staging/wilc1000/wilc1000.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/staging/wilc1000/wilc1000.o drivers/staging/wilc1000/wilc_wfi_cfgoperations.o drivers/staging/wilc1000/wilc_netdev.o drivers/staging/wilc1000/wilc_mon.o drivers/staging/wilc1000/wilc_hif.o drivers/staging/wilc1000/wilc_wlan_cfg.o drivers/staging/wilc1000/wilc_wlan.o

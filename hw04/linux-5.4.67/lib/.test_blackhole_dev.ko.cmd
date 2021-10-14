@@ -1,0 +1,1 @@
+cmd_lib/test_blackhole_dev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o lib/test_blackhole_dev.ko lib/test_blackhole_dev.o lib/test_blackhole_dev.mod.o;  true

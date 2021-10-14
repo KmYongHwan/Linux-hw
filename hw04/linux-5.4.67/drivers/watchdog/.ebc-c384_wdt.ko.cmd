@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/ebc-c384_wdt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/ebc-c384_wdt.ko drivers/watchdog/ebc-c384_wdt.o drivers/watchdog/ebc-c384_wdt.mod.o;  true

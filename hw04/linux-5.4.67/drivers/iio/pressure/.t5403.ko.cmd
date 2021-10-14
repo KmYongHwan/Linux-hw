@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/t5403.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/pressure/t5403.ko drivers/iio/pressure/t5403.o drivers/iio/pressure/t5403.mod.o;  true

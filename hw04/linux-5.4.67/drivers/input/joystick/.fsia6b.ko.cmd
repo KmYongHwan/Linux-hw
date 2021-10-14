@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/fsia6b.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/joystick/fsia6b.ko drivers/input/joystick/fsia6b.o drivers/input/joystick/fsia6b.mod.o;  true

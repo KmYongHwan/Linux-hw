@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/pandora_bl.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/backlight/pandora_bl.ko drivers/video/backlight/pandora_bl.o drivers/video/backlight/pandora_bl.mod.o;  true

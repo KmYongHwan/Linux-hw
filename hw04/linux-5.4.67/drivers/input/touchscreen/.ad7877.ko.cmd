@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ad7877.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/ad7877.ko drivers/input/touchscreen/ad7877.o drivers/input/touchscreen/ad7877.mod.o;  true

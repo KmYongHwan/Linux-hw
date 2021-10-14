@@ -1,0 +1,1 @@
+cmd_drivers/mtd/chips/cfi_util.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/chips/cfi_util.ko drivers/mtd/chips/cfi_util.o drivers/mtd/chips/cfi_util.mod.o;  true

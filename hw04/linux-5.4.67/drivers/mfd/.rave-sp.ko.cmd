@@ -1,0 +1,1 @@
+cmd_drivers/mfd/rave-sp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/rave-sp.ko drivers/mfd/rave-sp.o drivers/mfd/rave-sp.mod.o;  true

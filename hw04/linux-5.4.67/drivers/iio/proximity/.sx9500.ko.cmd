@@ -1,0 +1,1 @@
+cmd_drivers/iio/proximity/sx9500.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/proximity/sx9500.ko drivers/iio/proximity/sx9500.o drivers/iio/proximity/sx9500.mod.o;  true

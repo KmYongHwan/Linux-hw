@@ -1,0 +1,1 @@
+cmd_drivers/xen/pvcalls-front.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/xen/pvcalls-front.ko drivers/xen/pvcalls-front.o drivers/xen/pvcalls-front.mod.o;  true

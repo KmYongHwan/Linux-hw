@@ -1,0 +1,1 @@
+cmd_drivers/md/md-cluster.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/md/md-cluster.ko drivers/md/md-cluster.o drivers/md/md-cluster.mod.o;  true

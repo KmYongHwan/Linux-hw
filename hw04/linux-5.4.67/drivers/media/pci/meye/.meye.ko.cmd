@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/meye/meye.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/meye/meye.ko drivers/media/pci/meye/meye.o drivers/media/pci/meye/meye.mod.o;  true

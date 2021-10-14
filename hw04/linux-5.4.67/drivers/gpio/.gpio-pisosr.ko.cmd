@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-pisosr.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpio/gpio-pisosr.ko drivers/gpio/gpio-pisosr.o drivers/gpio/gpio-pisosr.mod.o;  true

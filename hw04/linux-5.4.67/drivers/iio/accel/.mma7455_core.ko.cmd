@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/mma7455_core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/accel/mma7455_core.ko drivers/iio/accel/mma7455_core.o drivers/iio/accel/mma7455_core.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/phy/ti/phy-tusb1210.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/phy/ti/phy-tusb1210.ko drivers/phy/ti/phy-tusb1210.o drivers/phy/ti/phy-tusb1210.mod.o;  true

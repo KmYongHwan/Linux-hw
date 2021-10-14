@@ -1,0 +1,1 @@
+cmd_drivers/usb/cdns3/cdns3-pci-wrap.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/cdns3/cdns3-pci-wrap.ko drivers/usb/cdns3/cdns3-pci-wrap.o drivers/usb/cdns3/cdns3-pci-wrap.mod.o;  true

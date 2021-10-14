@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-slave-time.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/spi/spi-slave-time.ko drivers/spi/spi-slave-time.o drivers/spi/spi-slave-time.mod.o;  true

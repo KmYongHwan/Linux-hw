@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/cx88/cx8800.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/cx88/cx8800.ko drivers/media/pci/cx88/cx8800.o drivers/media/pci/cx88/cx8800.mod.o;  true

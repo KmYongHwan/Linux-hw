@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/eeprom_93xx46.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/eeprom/eeprom_93xx46.ko drivers/misc/eeprom/eeprom_93xx46.o drivers/misc/eeprom/eeprom_93xx46.mod.o;  true

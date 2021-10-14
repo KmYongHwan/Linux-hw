@@ -1,0 +1,1 @@
+cmd_drivers/scsi/53c700.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/53c700.ko drivers/scsi/53c700.o drivers/scsi/53c700.mod.o;  true

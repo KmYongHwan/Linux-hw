@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/microchip/lan743x.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/ethernet/microchip/lan743x.o drivers/net/ethernet/microchip/lan743x_main.o drivers/net/ethernet/microchip/lan743x_ethtool.o drivers/net/ethernet/microchip/lan743x_ptp.o

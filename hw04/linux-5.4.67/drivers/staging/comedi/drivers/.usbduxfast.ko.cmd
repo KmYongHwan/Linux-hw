@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/usbduxfast.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/comedi/drivers/usbduxfast.ko drivers/staging/comedi/drivers/usbduxfast.o drivers/staging/comedi/drivers/usbduxfast.mod.o;  true

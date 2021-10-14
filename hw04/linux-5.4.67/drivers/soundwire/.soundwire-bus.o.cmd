@@ -1,0 +1,1 @@
+cmd_drivers/soundwire/soundwire-bus.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/soundwire/soundwire-bus.o drivers/soundwire/bus_type.o drivers/soundwire/bus.o drivers/soundwire/slave.o drivers/soundwire/mipi_disco.o drivers/soundwire/stream.o drivers/soundwire/debugfs.o

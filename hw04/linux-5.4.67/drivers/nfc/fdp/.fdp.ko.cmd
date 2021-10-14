@@ -1,0 +1,1 @@
+cmd_drivers/nfc/fdp/fdp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/nfc/fdp/fdp.ko drivers/nfc/fdp/fdp.o drivers/nfc/fdp/fdp.mod.o;  true

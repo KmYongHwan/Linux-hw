@@ -1,0 +1,1 @@
+cmd_drivers/isdn/hardware/mISDN/avmfritz.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/isdn/hardware/mISDN/avmfritz.ko drivers/isdn/hardware/mISDN/avmfritz.o drivers/isdn/hardware/mISDN/avmfritz.mod.o;  true

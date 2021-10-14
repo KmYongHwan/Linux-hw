@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/bq27xxx_battery_i2c.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/bq27xxx_battery_i2c.ko drivers/power/supply/bq27xxx_battery_i2c.o drivers/power/supply/bq27xxx_battery_i2c.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/nxp-tja11xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/nxp-tja11xx.ko drivers/net/phy/nxp-tja11xx.o drivers/net/phy/nxp-tja11xx.mod.o;  true

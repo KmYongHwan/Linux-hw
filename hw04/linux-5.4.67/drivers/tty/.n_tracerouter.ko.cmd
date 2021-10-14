@@ -1,0 +1,1 @@
+cmd_drivers/tty/n_tracerouter.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/n_tracerouter.ko drivers/tty/n_tracerouter.o drivers/tty/n_tracerouter.mod.o;  true

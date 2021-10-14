@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/qualcomm/emac/qcom-emac.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/qualcomm/emac/qcom-emac.ko drivers/net/ethernet/qualcomm/emac/qcom-emac.o drivers/net/ethernet/qualcomm/emac/qcom-emac.mod.o;  true

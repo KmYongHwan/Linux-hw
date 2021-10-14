@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/wm831x-ts.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/wm831x-ts.ko drivers/input/touchscreen/wm831x-ts.o drivers/input/touchscreen/wm831x-ts.mod.o;  true

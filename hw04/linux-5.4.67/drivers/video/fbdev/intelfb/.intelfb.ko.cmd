@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/intelfb/intelfb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/intelfb/intelfb.ko drivers/video/fbdev/intelfb/intelfb.o drivers/video/fbdev/intelfb/intelfb.mod.o;  true

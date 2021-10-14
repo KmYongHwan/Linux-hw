@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-pwm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-pwm.ko drivers/leds/leds-pwm.o drivers/leds/leds-pwm.mod.o;  true

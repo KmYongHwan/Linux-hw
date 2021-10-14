@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/max8925_onkey.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/max8925_onkey.ko drivers/input/misc/max8925_onkey.o drivers/input/misc/max8925_onkey.mod.o;  true

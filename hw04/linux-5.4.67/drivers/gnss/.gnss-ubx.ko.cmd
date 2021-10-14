@@ -1,0 +1,1 @@
+cmd_drivers/gnss/gnss-ubx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gnss/gnss-ubx.ko drivers/gnss/gnss-ubx.o drivers/gnss/gnss-ubx.mod.o;  true

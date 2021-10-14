@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/test/efi_test.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/firmware/efi/test/efi_test.ko drivers/firmware/efi/test/efi_test.o drivers/firmware/efi/test/efi_test.mod.o;  true

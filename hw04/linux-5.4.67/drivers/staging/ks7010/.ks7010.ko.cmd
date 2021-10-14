@@ -1,0 +1,1 @@
+cmd_drivers/staging/ks7010/ks7010.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/ks7010/ks7010.ko drivers/staging/ks7010/ks7010.o drivers/staging/ks7010/ks7010.mod.o;  true

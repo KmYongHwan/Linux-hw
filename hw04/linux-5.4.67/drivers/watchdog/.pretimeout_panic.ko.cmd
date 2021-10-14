@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/pretimeout_panic.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/pretimeout_panic.ko drivers/watchdog/pretimeout_panic.o drivers/watchdog/pretimeout_panic.mod.o;  true

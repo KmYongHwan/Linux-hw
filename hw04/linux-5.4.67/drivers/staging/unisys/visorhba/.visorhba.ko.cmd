@@ -1,0 +1,1 @@
+cmd_drivers/staging/unisys/visorhba/visorhba.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/unisys/visorhba/visorhba.ko drivers/staging/unisys/visorhba/visorhba.o drivers/staging/unisys/visorhba/visorhba.mod.o;  true

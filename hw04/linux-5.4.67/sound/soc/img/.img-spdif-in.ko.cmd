@@ -1,0 +1,1 @@
+cmd_sound/soc/img/img-spdif-in.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/img/img-spdif-in.ko sound/soc/img/img-spdif-in.o sound/soc/img/img-spdif-in.mod.o;  true

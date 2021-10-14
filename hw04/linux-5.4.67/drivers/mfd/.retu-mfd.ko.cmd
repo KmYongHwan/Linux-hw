@@ -1,0 +1,1 @@
+cmd_drivers/mfd/retu-mfd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/retu-mfd.ko drivers/mfd/retu-mfd.o drivers/mfd/retu-mfd.mod.o;  true

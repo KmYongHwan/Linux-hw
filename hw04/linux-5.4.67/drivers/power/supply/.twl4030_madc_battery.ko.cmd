@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/twl4030_madc_battery.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/twl4030_madc_battery.ko drivers/power/supply/twl4030_madc_battery.o drivers/power/supply/twl4030_madc_battery.mod.o;  true

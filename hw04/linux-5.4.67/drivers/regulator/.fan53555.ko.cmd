@@ -1,0 +1,1 @@
+cmd_drivers/regulator/fan53555.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/fan53555.ko drivers/regulator/fan53555.o drivers/regulator/fan53555.mod.o;  true

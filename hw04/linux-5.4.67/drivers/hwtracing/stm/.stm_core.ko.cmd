@@ -1,0 +1,1 @@
+cmd_drivers/hwtracing/stm/stm_core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwtracing/stm/stm_core.ko drivers/hwtracing/stm/stm_core.o drivers/hwtracing/stm/stm_core.mod.o;  true

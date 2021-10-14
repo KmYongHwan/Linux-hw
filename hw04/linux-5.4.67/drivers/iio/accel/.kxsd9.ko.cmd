@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/kxsd9.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/accel/kxsd9.ko drivers/iio/accel/kxsd9.o drivers/iio/accel/kxsd9.mod.o;  true

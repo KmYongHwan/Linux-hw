@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/cros_ec_lpcs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/platform/chrome/cros_ec_lpcs.ko drivers/platform/chrome/cros_ec_lpcs.o drivers/platform/chrome/cros_ec_lpcs.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/hgafb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/hgafb.ko drivers/video/fbdev/hgafb.o drivers/video/fbdev/hgafb.mod.o;  true

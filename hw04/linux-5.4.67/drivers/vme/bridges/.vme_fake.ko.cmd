@@ -1,0 +1,1 @@
+cmd_drivers/vme/bridges/vme_fake.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/vme/bridges/vme_fake.ko drivers/vme/bridges/vme_fake.o drivers/vme/bridges/vme_fake.mod.o;  true

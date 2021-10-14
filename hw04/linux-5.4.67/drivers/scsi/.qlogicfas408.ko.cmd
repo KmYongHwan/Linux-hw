@@ -1,0 +1,1 @@
+cmd_drivers/scsi/qlogicfas408.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/qlogicfas408.ko drivers/scsi/qlogicfas408.o drivers/scsi/qlogicfas408.mod.o;  true

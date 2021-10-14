@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mxl301rf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/tuners/mxl301rf.ko drivers/media/tuners/mxl301rf.o drivers/media/tuners/mxl301rf.mod.o;  true

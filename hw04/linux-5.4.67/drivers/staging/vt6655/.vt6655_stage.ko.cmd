@@ -1,0 +1,1 @@
+cmd_drivers/staging/vt6655/vt6655_stage.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/vt6655/vt6655_stage.ko drivers/staging/vt6655/vt6655_stage.o drivers/staging/vt6655/vt6655_stage.mod.o;  true

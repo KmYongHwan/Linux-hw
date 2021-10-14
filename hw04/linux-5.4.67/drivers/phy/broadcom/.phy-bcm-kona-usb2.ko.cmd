@@ -1,0 +1,1 @@
+cmd_drivers/phy/broadcom/phy-bcm-kona-usb2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/phy/broadcom/phy-bcm-kona-usb2.ko drivers/phy/broadcom/phy-bcm-kona-usb2.o drivers/phy/broadcom/phy-bcm-kona-usb2.mod.o;  true

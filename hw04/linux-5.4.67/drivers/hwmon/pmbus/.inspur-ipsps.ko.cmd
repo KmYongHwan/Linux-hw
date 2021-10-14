@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/inspur-ipsps.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/pmbus/inspur-ipsps.ko drivers/hwmon/pmbus/inspur-ipsps.o drivers/hwmon/pmbus/inspur-ipsps.mod.o;  true

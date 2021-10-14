@@ -1,0 +1,1 @@
+cmd_drivers/crypto/virtio/virtio_crypto.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/virtio/virtio_crypto.ko drivers/crypto/virtio/virtio_crypto.o drivers/crypto/virtio/virtio_crypto.mod.o;  true

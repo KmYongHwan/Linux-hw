@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-s2mps11.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/clk/clk-s2mps11.ko drivers/clk/clk-s2mps11.o drivers/clk/clk-s2mps11.mod.o;  true

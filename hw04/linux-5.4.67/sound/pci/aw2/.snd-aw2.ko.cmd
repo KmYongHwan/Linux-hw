@@ -1,0 +1,1 @@
+cmd_sound/pci/aw2/snd-aw2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/pci/aw2/snd-aw2.ko sound/pci/aw2/snd-aw2.o sound/pci/aw2/snd-aw2.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-clone.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/md/dm-clone.ko drivers/md/dm-clone.o drivers/md/dm-clone.mod.o;  true

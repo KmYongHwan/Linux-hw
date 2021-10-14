@@ -1,0 +1,1 @@
+cmd_drivers/mtd/devices/sst25l.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/devices/sst25l.ko drivers/mtd/devices/sst25l.o drivers/mtd/devices/sst25l.mod.o;  true

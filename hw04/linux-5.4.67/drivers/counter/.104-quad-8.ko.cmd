@@ -1,0 +1,1 @@
+cmd_drivers/counter/104-quad-8.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/counter/104-quad-8.ko drivers/counter/104-quad-8.o drivers/counter/104-quad-8.mod.o;  true

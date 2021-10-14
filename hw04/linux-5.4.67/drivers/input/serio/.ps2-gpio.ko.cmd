@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/ps2-gpio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/serio/ps2-gpio.ko drivers/input/serio/ps2-gpio.o drivers/input/serio/ps2-gpio.mod.o;  true

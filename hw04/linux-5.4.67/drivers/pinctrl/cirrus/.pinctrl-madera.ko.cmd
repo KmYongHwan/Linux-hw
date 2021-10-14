@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/cirrus/pinctrl-madera.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/pinctrl/cirrus/pinctrl-madera.ko drivers/pinctrl/cirrus/pinctrl-madera.o drivers/pinctrl/cirrus/pinctrl-madera.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/atm/fore_200e.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/atm/fore_200e.ko drivers/atm/fore_200e.o drivers/atm/fore_200e.mod.o;  true

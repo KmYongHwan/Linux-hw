@@ -1,0 +1,1 @@
+cmd_drivers/staging/most/net/most_net.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/most/net/most_net.ko drivers/staging/most/net/most_net.o drivers/staging/most/net/most_net.mod.o;  true

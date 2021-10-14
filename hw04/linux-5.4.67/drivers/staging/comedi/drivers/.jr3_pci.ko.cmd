@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/jr3_pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/comedi/drivers/jr3_pci.ko drivers/staging/comedi/drivers/jr3_pci.o drivers/staging/comedi/drivers/jr3_pci.mod.o;  true

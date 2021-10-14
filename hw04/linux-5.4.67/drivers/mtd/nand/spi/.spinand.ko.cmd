@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/spi/spinand.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/nand/spi/spinand.ko drivers/mtd/nand/spi/spinand.o drivers/mtd/nand/spi/spinand.mod.o;  true

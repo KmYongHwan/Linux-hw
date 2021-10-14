@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/iio_hwmon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/iio_hwmon.ko drivers/hwmon/iio_hwmon.o drivers/hwmon/iio_hwmon.mod.o;  true

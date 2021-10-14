@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/qcom_glink_native.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rpmsg/qcom_glink_native.ko drivers/rpmsg/qcom_glink_native.o drivers/rpmsg/qcom_glink_native.mod.o;  true

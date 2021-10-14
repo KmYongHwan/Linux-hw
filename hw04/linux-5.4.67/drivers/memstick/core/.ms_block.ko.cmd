@@ -1,0 +1,1 @@
+cmd_drivers/memstick/core/ms_block.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/memstick/core/ms_block.ko drivers/memstick/core/ms_block.o drivers/memstick/core/ms_block.mod.o;  true

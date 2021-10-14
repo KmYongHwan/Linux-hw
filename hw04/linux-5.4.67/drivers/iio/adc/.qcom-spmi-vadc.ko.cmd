@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/qcom-spmi-vadc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/adc/qcom-spmi-vadc.ko drivers/iio/adc/qcom-spmi-vadc.o drivers/iio/adc/qcom-spmi-vadc.mod.o;  true

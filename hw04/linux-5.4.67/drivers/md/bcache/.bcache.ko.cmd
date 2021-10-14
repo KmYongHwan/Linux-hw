@@ -1,0 +1,1 @@
+cmd_drivers/md/bcache/bcache.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/md/bcache/bcache.ko drivers/md/bcache/bcache.o drivers/md/bcache/bcache.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cxd2880/cxd2880.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/cxd2880/cxd2880.ko drivers/media/dvb-frontends/cxd2880/cxd2880.o drivers/media/dvb-frontends/cxd2880/cxd2880.mod.o;  true

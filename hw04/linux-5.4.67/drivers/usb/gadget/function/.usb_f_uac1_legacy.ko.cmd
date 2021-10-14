@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_uac1_legacy.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/gadget/function/usb_f_uac1_legacy.ko drivers/usb/gadget/function/usb_f_uac1_legacy.o drivers/usb/gadget/function/usb_f_uac1_legacy.mod.o;  true

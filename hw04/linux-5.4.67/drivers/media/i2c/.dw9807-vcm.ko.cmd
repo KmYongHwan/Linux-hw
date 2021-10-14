@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/dw9807-vcm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/i2c/dw9807-vcm.ko drivers/media/i2c/dw9807-vcm.o drivers/media/i2c/dw9807-vcm.mod.o;  true

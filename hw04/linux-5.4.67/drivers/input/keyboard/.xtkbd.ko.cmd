@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/xtkbd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/keyboard/xtkbd.ko drivers/input/keyboard/xtkbd.o drivers/input/keyboard/xtkbd.mod.o;  true

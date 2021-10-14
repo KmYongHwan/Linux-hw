@@ -1,0 +1,1 @@
+cmd_drivers/w1/masters/ds2490.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/w1/masters/ds2490.ko drivers/w1/masters/ds2490.o drivers/w1/masters/ds2490.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/raw/denali.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/nand/raw/denali.ko drivers/mtd/nand/raw/denali.o drivers/mtd/nand/raw/denali.mod.o;  true

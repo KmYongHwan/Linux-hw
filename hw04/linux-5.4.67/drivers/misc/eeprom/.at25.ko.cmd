@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/at25.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/eeprom/at25.ko drivers/misc/eeprom/at25.o drivers/misc/eeprom/at25.mod.o;  true

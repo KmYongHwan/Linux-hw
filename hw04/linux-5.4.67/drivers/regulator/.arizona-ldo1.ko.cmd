@@ -1,0 +1,1 @@
+cmd_drivers/regulator/arizona-ldo1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/arizona-ldo1.ko drivers/regulator/arizona-ldo1.o drivers/regulator/arizona-ldo1.mod.o;  true

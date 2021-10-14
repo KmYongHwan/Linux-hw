@@ -1,0 +1,1 @@
+cmd_drivers/staging/most/most_core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/most/most_core.ko drivers/staging/most/most_core.o drivers/staging/most/most_core.mod.o;  true

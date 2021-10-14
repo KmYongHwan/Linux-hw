@@ -1,0 +1,1 @@
+cmd_drivers/usb/cdns3/cdns3.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/usb/cdns3/cdns3.o drivers/usb/cdns3/core.o drivers/usb/cdns3/drd.o drivers/usb/cdns3/gadget.o drivers/usb/cdns3/ep0.o drivers/usb/cdns3/trace.o drivers/usb/cdns3/host.o

@@ -1,0 +1,1 @@
+cmd_drivers/mfd/tps6507x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/tps6507x.ko drivers/mfd/tps6507x.o drivers/mfd/tps6507x.mod.o;  true

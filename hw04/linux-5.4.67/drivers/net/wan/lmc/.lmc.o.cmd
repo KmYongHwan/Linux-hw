@@ -1,0 +1,1 @@
+cmd_drivers/net/wan/lmc/lmc.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/wan/lmc/lmc.o drivers/net/wan/lmc/lmc_debug.o drivers/net/wan/lmc/lmc_media.o drivers/net/wan/lmc/lmc_main.o drivers/net/wan/lmc/lmc_proto.o

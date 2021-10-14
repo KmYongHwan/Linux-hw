@@ -1,0 +1,1 @@
+cmd_net/decnet/netfilter/dn_rtmsg.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/decnet/netfilter/dn_rtmsg.ko net/decnet/netfilter/dn_rtmsg.o net/decnet/netfilter/dn_rtmsg.mod.o;  true

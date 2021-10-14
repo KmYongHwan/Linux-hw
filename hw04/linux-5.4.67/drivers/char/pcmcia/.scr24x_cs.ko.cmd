@@ -1,0 +1,1 @@
+cmd_drivers/char/pcmcia/scr24x_cs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/char/pcmcia/scr24x_cs.ko drivers/char/pcmcia/scr24x_cs.o drivers/char/pcmcia/scr24x_cs.mod.o;  true

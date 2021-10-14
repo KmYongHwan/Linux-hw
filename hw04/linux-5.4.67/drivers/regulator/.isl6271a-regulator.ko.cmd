@@ -1,0 +1,1 @@
+cmd_drivers/regulator/isl6271a-regulator.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/isl6271a-regulator.ko drivers/regulator/isl6271a-regulator.o drivers/regulator/isl6271a-regulator.mod.o;  true

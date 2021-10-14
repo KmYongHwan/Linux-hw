@@ -1,0 +1,1 @@
+cmd_drivers/input/evbug.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/evbug.ko drivers/input/evbug.o drivers/input/evbug.mod.o;  true

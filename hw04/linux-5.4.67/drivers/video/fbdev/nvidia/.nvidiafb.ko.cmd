@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/nvidia/nvidiafb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/nvidia/nvidiafb.ko drivers/video/fbdev/nvidia/nvidiafb.o drivers/video/fbdev/nvidia/nvidiafb.mod.o;  true

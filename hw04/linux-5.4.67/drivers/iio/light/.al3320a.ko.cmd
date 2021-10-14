@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/al3320a.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/light/al3320a.ko drivers/iio/light/al3320a.o drivers/iio/light/al3320a.mod.o;  true

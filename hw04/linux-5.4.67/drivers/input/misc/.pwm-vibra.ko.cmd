@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/pwm-vibra.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/pwm-vibra.ko drivers/input/misc/pwm-vibra.o drivers/input/misc/pwm-vibra.mod.o;  true

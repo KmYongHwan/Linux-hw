@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/xen-fbfront.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/xen-fbfront.ko drivers/video/fbdev/xen-fbfront.o drivers/video/fbdev/xen-fbfront.mod.o;  true

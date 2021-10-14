@@ -1,0 +1,1 @@
+cmd_drivers/w1/slaves/w1_ds28e17.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/w1/slaves/w1_ds28e17.ko drivers/w1/slaves/w1_ds28e17.o drivers/w1/slaves/w1_ds28e17.mod.o;  true

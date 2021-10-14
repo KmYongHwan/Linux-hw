@@ -1,0 +1,1 @@
+cmd_lib/memory-notifier-error-inject.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o lib/memory-notifier-error-inject.ko lib/memory-notifier-error-inject.o lib/memory-notifier-error-inject.mod.o;  true

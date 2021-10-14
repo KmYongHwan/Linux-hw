@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ektf2127.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/ektf2127.ko drivers/input/touchscreen/ektf2127.o drivers/input/touchscreen/ektf2127.mod.o;  true

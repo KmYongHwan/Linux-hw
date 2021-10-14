@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/pcf8574_keypad.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/pcf8574_keypad.ko drivers/input/misc/pcf8574_keypad.o drivers/input/misc/pcf8574_keypad.mod.o;  true

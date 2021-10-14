@@ -1,0 +1,1 @@
+cmd_drivers/mtd/chips/map_absent.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/chips/map_absent.ko drivers/mtd/chips/map_absent.o drivers/mtd/chips/map_absent.mod.o;  true

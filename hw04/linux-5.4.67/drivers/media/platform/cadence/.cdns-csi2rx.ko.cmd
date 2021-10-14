@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/cadence/cdns-csi2rx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/platform/cadence/cdns-csi2rx.ko drivers/media/platform/cadence/cdns-csi2rx.o drivers/media/platform/cadence/cdns-csi2rx.mod.o;  true

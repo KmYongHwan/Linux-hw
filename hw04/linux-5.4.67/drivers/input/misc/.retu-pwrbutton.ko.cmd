@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/retu-pwrbutton.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/retu-pwrbutton.ko drivers/input/misc/retu-pwrbutton.o drivers/input/misc/retu-pwrbutton.mod.o;  true

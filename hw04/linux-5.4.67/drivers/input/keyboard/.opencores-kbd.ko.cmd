@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/opencores-kbd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/keyboard/opencores-kbd.ko drivers/input/keyboard/opencores-kbd.o drivers/input/keyboard/opencores-kbd.mod.o;  true

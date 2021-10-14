@@ -1,0 +1,1 @@
+cmd_drivers/net/arcnet/capmode.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/arcnet/capmode.ko drivers/net/arcnet/capmode.o drivers/net/arcnet/capmode.mod.o;  true

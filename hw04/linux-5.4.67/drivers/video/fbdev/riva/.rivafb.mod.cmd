@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/riva/rivafb.mod := { echo  drivers/video/fbdev/riva/fbdev.o drivers/video/fbdev/riva/riva_hw.o drivers/video/fbdev/riva/nv_driver.o drivers/video/fbdev/riva/rivafb-i2c.o; echo; } > drivers/video/fbdev/riva/rivafb.mod

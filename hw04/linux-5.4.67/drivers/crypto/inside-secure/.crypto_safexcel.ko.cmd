@@ -1,0 +1,1 @@
+cmd_drivers/crypto/inside-secure/crypto_safexcel.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/inside-secure/crypto_safexcel.ko drivers/crypto/inside-secure/crypto_safexcel.o drivers/crypto/inside-secure/crypto_safexcel.mod.o;  true

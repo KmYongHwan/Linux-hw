@@ -1,0 +1,1 @@
+cmd_drivers/net/can/sja1000/ems_pcmcia.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/can/sja1000/ems_pcmcia.ko drivers/net/can/sja1000/ems_pcmcia.o drivers/net/can/sja1000/ems_pcmcia.mod.o;  true

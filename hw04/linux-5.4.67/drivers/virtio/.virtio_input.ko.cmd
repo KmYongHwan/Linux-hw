@@ -1,0 +1,1 @@
+cmd_drivers/virtio/virtio_input.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/virtio/virtio_input.ko drivers/virtio/virtio_input.o drivers/virtio/virtio_input.mod.o;  true

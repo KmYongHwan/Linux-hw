@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/emc2103.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/emc2103.ko drivers/hwmon/emc2103.o drivers/hwmon/emc2103.mod.o;  true

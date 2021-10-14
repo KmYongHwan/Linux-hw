@@ -1,0 +1,1 @@
+cmd_drivers/net/ieee802154/mac802154_hwsim.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ieee802154/mac802154_hwsim.ko drivers/net/ieee802154/mac802154_hwsim.o drivers/net/ieee802154/mac802154_hwsim.mod.o;  true

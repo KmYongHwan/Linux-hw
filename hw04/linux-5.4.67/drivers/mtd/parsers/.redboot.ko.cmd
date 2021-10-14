@@ -1,0 +1,1 @@
+cmd_drivers/mtd/parsers/redboot.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/parsers/redboot.ko drivers/mtd/parsers/redboot.o drivers/mtd/parsers/redboot.mod.o;  true

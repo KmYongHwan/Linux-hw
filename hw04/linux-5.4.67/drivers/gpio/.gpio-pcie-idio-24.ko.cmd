@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-pcie-idio-24.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpio/gpio-pcie-idio-24.ko drivers/gpio/gpio-pcie-idio-24.o drivers/gpio/gpio-pcie-idio-24.mod.o;  true

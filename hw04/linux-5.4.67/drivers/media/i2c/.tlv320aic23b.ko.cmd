@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/tlv320aic23b.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/i2c/tlv320aic23b.ko drivers/media/i2c/tlv320aic23b.o drivers/media/i2c/tlv320aic23b.mod.o;  true

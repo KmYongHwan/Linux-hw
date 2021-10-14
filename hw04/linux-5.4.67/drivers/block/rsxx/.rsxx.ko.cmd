@@ -1,0 +1,1 @@
+cmd_drivers/block/rsxx/rsxx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/block/rsxx/rsxx.ko drivers/block/rsxx/rsxx.o drivers/block/rsxx/rsxx.mod.o;  true

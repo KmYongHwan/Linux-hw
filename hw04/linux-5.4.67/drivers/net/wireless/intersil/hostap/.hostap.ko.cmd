@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/hostap/hostap.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wireless/intersil/hostap/hostap.ko drivers/net/wireless/intersil/hostap/hostap.o drivers/net/wireless/intersil/hostap/hostap.mod.o;  true

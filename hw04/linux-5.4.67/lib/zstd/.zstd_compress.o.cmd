@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_compress.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o lib/zstd/zstd_compress.o lib/zstd/fse_compress.o lib/zstd/huf_compress.o lib/zstd/compress.o lib/zstd/entropy_common.o lib/zstd/fse_decompress.o lib/zstd/zstd_common.o

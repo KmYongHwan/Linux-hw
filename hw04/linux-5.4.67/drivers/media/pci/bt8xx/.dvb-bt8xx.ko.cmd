@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/bt8xx/dvb-bt8xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/bt8xx/dvb-bt8xx.ko drivers/media/pci/bt8xx/dvb-bt8xx.o drivers/media/pci/bt8xx/dvb-bt8xx.mod.o;  true

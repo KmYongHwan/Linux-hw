@@ -1,0 +1,1 @@
+cmd_drivers/media/common/saa7146/saa7146.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/common/saa7146/saa7146.ko drivers/media/common/saa7146/saa7146.o drivers/media/common/saa7146/saa7146.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/addi_apci_3120.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/comedi/drivers/addi_apci_3120.ko drivers/staging/comedi/drivers/addi_apci_3120.o drivers/staging/comedi/drivers/addi_apci_3120.mod.o;  true

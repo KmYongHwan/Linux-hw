@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/rave-sp-wdt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/rave-sp-wdt.ko drivers/watchdog/rave-sp-wdt.o drivers/watchdog/rave-sp-wdt.mod.o;  true

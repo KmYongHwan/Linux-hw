@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/mtk-pmic-keys.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/keyboard/mtk-pmic-keys.ko drivers/input/keyboard/mtk-pmic-keys.o drivers/input/keyboard/mtk-pmic-keys.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/unisys/visorinput/visorinput.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/unisys/visorinput/visorinput.ko drivers/staging/unisys/visorinput/visorinput.o drivers/staging/unisys/visorinput/visorinput.mod.o;  true

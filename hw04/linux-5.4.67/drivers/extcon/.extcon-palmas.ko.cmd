@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-palmas.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/extcon/extcon-palmas.ko drivers/extcon/extcon-palmas.o drivers/extcon/extcon-palmas.mod.o;  true

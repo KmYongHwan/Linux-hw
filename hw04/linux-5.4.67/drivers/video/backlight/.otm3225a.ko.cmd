@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/otm3225a.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/backlight/otm3225a.ko drivers/video/backlight/otm3225a.o drivers/video/backlight/otm3225a.mod.o;  true

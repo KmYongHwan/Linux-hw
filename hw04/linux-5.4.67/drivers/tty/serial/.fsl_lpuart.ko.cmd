@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/fsl_lpuart.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/serial/fsl_lpuart.ko drivers/tty/serial/fsl_lpuart.o drivers/tty/serial/fsl_lpuart.mod.o;  true

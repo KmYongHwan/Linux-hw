@@ -1,0 +1,1 @@
+cmd_drivers/iio/chemical/ams-iaq-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/chemical/ams-iaq-core.ko drivers/iio/chemical/ams-iaq-core.o drivers/iio/chemical/ams-iaq-core.mod.o;  true

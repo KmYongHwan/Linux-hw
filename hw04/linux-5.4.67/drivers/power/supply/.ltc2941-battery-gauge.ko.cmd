@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/ltc2941-battery-gauge.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/ltc2941-battery-gauge.ko drivers/power/supply/ltc2941-battery-gauge.o drivers/power/supply/ltc2941-battery-gauge.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ti-tlc4541.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/adc/ti-tlc4541.ko drivers/iio/adc/ti-tlc4541.o drivers/iio/adc/ti-tlc4541.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tiny/repaper.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/tiny/repaper.ko drivers/gpu/drm/tiny/repaper.o drivers/gpu/drm/tiny/repaper.mod.o;  true

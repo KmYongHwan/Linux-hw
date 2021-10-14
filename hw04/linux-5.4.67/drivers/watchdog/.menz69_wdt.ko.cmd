@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/menz69_wdt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/menz69_wdt.ko drivers/watchdog/menz69_wdt.o drivers/watchdog/menz69_wdt.mod.o;  true

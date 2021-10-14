@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/hackrf/hackrf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/hackrf/hackrf.ko drivers/media/usb/hackrf/hackrf.o drivers/media/usb/hackrf/hackrf.mod.o;  true

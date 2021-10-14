@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_mipi_dbi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/drm_mipi_dbi.ko drivers/gpu/drm/drm_mipi_dbi.o drivers/gpu/drm/drm_mipi_dbi.mod.o;  true

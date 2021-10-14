@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/i2c/tda9950.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/i2c/tda9950.ko drivers/gpu/drm/i2c/tda9950.o drivers/gpu/drm/i2c/tda9950.mod.o;  true

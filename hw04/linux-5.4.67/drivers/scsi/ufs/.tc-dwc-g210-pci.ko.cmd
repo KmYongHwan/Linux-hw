@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ufs/tc-dwc-g210-pci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/ufs/tc-dwc-g210-pci.ko drivers/scsi/ufs/tc-dwc-g210-pci.o drivers/scsi/ufs/tc-dwc-g210-pci.mod.o;  true

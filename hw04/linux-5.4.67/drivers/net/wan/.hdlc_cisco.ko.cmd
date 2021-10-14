@@ -1,0 +1,1 @@
+cmd_drivers/net/wan/hdlc_cisco.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wan/hdlc_cisco.ko drivers/net/wan/hdlc_cisco.o drivers/net/wan/hdlc_cisco.mod.o;  true

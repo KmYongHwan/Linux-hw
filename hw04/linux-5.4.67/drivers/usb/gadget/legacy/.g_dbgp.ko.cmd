@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_dbgp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/gadget/legacy/g_dbgp.ko drivers/usb/gadget/legacy/g_dbgp.o drivers/usb/gadget/legacy/g_dbgp.mod.o;  true

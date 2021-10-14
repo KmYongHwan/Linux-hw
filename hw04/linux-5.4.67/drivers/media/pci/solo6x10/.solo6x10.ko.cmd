@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/solo6x10/solo6x10.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/solo6x10/solo6x10.ko drivers/media/pci/solo6x10/solo6x10.o drivers/media/pci/solo6x10/solo6x10.mod.o;  true

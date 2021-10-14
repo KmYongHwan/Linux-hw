@@ -1,0 +1,1 @@
+cmd_drivers/mtd/devices/mchp23k256.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/devices/mchp23k256.ko drivers/mtd/devices/mchp23k256.o drivers/mtd/devices/mchp23k256.mod.o;  true

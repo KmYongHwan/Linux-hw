@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-tlc591xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-tlc591xx.ko drivers/leds/leds-tlc591xx.o drivers/leds/leds-tlc591xx.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/pci/controller/pci-hyperv-intf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/pci/controller/pci-hyperv-intf.ko drivers/pci/controller/pci-hyperv-intf.o drivers/pci/controller/pci-hyperv-intf.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/mtdoops.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/mtdoops.ko drivers/mtd/mtdoops.o drivers/mtd/mtdoops.mod.o;  true

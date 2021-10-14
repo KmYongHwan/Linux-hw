@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tiny/hx8357d.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/tiny/hx8357d.ko drivers/gpu/drm/tiny/hx8357d.o drivers/gpu/drm/tiny/hx8357d.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/isdn/hardware/mISDN/mISDNinfineon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/isdn/hardware/mISDN/mISDNinfineon.ko drivers/isdn/hardware/mISDN/mISDNinfineon.o drivers/isdn/hardware/mISDN/mISDNinfineon.mod.o;  true

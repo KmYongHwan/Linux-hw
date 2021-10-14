@@ -1,0 +1,1 @@
+cmd_sound/drivers/pcsp/snd-pcsp.mod := { echo  sound/drivers/pcsp/pcsp.o sound/drivers/pcsp/pcsp_lib.o sound/drivers/pcsp/pcsp_mixer.o sound/drivers/pcsp/pcsp_input.o; echo; } > sound/drivers/pcsp/snd-pcsp.mod

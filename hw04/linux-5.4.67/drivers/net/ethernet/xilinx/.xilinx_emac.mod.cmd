@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/xilinx/xilinx_emac.mod := { echo  drivers/net/ethernet/xilinx/xilinx_axienet_main.o drivers/net/ethernet/xilinx/xilinx_axienet_mdio.o; echo; } > drivers/net/ethernet/xilinx/xilinx_emac.mod

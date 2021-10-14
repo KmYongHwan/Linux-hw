@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/da9055-hwmon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwmon/da9055-hwmon.ko drivers/hwmon/da9055-hwmon.o drivers/hwmon/da9055-hwmon.mod.o;  true

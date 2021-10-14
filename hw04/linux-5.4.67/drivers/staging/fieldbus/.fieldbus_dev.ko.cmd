@@ -1,0 +1,1 @@
+cmd_drivers/staging/fieldbus/fieldbus_dev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/fieldbus/fieldbus_dev.ko drivers/staging/fieldbus/fieldbus_dev.o drivers/staging/fieldbus/fieldbus_dev.mod.o;  true

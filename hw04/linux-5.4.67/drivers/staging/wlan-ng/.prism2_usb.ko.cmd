@@ -1,0 +1,1 @@
+cmd_drivers/staging/wlan-ng/prism2_usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/wlan-ng/prism2_usb.ko drivers/staging/wlan-ng/prism2_usb.o drivers/staging/wlan-ng/prism2_usb.mod.o;  true

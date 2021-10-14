@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/scb2_flash.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/maps/scb2_flash.ko drivers/mtd/maps/scb2_flash.o drivers/mtd/maps/scb2_flash.mod.o;  true

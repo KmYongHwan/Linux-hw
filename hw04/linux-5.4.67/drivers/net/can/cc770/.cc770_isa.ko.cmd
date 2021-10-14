@@ -1,0 +1,1 @@
+cmd_drivers/net/can/cc770/cc770_isa.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/can/cc770/cc770_isa.ko drivers/net/can/cc770/cc770_isa.o drivers/net/can/cc770/cc770_isa.mod.o;  true

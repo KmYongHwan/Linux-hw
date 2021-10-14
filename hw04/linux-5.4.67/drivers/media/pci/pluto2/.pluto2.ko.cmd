@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/pluto2/pluto2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/pluto2/pluto2.ko drivers/media/pci/pluto2/pluto2.o drivers/media/pci/pluto2/pluto2.mod.o;  true

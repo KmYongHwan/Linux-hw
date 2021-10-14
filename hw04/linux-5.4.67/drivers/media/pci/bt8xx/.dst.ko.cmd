@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/bt8xx/dst.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/bt8xx/dst.ko drivers/media/pci/bt8xx/dst.o drivers/media/pci/bt8xx/dst.mod.o;  true

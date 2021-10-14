@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.a := rm -f drivers/staging/built-in.a; ar cDPrST drivers/staging/built-in.a drivers/staging/media/built-in.a drivers/staging/vme/built-in.a drivers/staging/android/built-in.a drivers/staging/unisys/built-in.a drivers/staging/kpc2000/built-in.a drivers/staging/isdn/built-in.a

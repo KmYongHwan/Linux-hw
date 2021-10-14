@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ufs/ufshcd-dwc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/scsi/ufs/ufshcd-dwc.ko drivers/scsi/ufs/ufshcd-dwc.o drivers/scsi/ufs/ufshcd-dwc.mod.o;  true

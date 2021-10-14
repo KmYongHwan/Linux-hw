@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/vkms/vkms.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/vkms/vkms.ko drivers/gpu/drm/vkms/vkms.o drivers/gpu/drm/vkms/vkms.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/atm/horizon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/atm/horizon.ko drivers/atm/horizon.o drivers/atm/horizon.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/palmas-pwrbutton.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/palmas-pwrbutton.ko drivers/input/misc/palmas-pwrbutton.o drivers/input/misc/palmas-pwrbutton.mod.o;  true

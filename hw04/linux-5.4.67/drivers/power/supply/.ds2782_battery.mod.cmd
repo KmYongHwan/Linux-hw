@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/ds2782_battery.mod := { echo  drivers/power/supply/ds2782_battery.o; echo; } > drivers/power/supply/ds2782_battery.mod

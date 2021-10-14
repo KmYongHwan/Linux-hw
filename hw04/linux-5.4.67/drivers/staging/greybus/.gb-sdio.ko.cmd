@@ -1,0 +1,1 @@
+cmd_drivers/staging/greybus/gb-sdio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/greybus/gb-sdio.ko drivers/staging/greybus/gb-sdio.o drivers/staging/greybus/gb-sdio.mod.o;  true

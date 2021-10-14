@@ -1,0 +1,1 @@
+cmd_drivers/iio/temperature/tsys02d.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/temperature/tsys02d.ko drivers/iio/temperature/tsys02d.o drivers/iio/temperature/tsys02d.mod.o;  true

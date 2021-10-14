@@ -1,0 +1,1 @@
+cmd_drivers/iio/humidity/am2315.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/humidity/am2315.ko drivers/iio/humidity/am2315.o drivers/iio/humidity/am2315.mod.o;  true

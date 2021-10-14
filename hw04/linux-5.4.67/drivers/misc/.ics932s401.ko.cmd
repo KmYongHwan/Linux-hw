@@ -1,0 +1,1 @@
+cmd_drivers/misc/ics932s401.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/ics932s401.ko drivers/misc/ics932s401.o drivers/misc/ics932s401.mod.o;  true

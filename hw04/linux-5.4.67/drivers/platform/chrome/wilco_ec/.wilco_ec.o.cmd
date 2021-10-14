@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/wilco_ec/wilco_ec.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/platform/chrome/wilco_ec/wilco_ec.o drivers/platform/chrome/wilco_ec/core.o drivers/platform/chrome/wilco_ec/mailbox.o drivers/platform/chrome/wilco_ec/properties.o drivers/platform/chrome/wilco_ec/sysfs.o

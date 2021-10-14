@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-ptn5150.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/extcon/extcon-ptn5150.ko drivers/extcon/extcon-ptn5150.o drivers/extcon/extcon-ptn5150.mod.o;  true

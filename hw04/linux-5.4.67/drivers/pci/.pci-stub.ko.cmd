@@ -1,0 +1,1 @@
+cmd_drivers/pci/pci-stub.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/pci/pci-stub.ko drivers/pci/pci-stub.o drivers/pci/pci-stub.mod.o;  true

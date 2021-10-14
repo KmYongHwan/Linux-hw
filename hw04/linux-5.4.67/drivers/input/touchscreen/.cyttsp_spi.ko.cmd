@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/cyttsp_spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/cyttsp_spi.ko drivers/input/touchscreen/cyttsp_spi.o drivers/input/touchscreen/cyttsp_spi.mod.o;  true

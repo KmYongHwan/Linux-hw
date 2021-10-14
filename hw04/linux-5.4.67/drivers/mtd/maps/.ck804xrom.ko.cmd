@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/ck804xrom.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/maps/ck804xrom.ko drivers/mtd/maps/ck804xrom.o drivers/mtd/maps/ck804xrom.mod.o;  true

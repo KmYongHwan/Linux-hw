@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/n411.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/n411.ko drivers/video/fbdev/n411.o drivers/video/fbdev/n411.mod.o;  true

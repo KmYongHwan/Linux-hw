@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/l440gx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/maps/l440gx.ko drivers/mtd/maps/l440gx.o drivers/mtd/maps/l440gx.mod.o;  true

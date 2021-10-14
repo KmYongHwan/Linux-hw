@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/noa1305.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/light/noa1305.ko drivers/iio/light/noa1305.o drivers/iio/light/noa1305.mod.o;  true

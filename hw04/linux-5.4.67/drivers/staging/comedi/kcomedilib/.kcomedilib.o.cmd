@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/kcomedilib/kcomedilib.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/staging/comedi/kcomedilib/kcomedilib.o drivers/staging/comedi/kcomedilib/kcomedilib_main.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/greybus/gb-loopback.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/greybus/gb-loopback.ko drivers/staging/greybus/gb-loopback.o drivers/staging/greybus/gb-loopback.mod.o;  true

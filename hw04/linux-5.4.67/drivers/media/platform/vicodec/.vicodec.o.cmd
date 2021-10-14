@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/vicodec/vicodec.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/media/platform/vicodec/vicodec.o drivers/media/platform/vicodec/vicodec-core.o drivers/media/platform/vicodec/codec-fwht.o drivers/media/platform/vicodec/codec-v4l2-fwht.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/vimc/vimc.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/media/platform/vimc/vimc.o drivers/media/platform/vimc/vimc-core.o drivers/media/platform/vimc/vimc-common.o drivers/media/platform/vimc/vimc-streamer.o

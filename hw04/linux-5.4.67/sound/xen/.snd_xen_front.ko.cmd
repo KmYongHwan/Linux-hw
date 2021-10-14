@@ -1,0 +1,1 @@
+cmd_sound/xen/snd_xen_front.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/xen/snd_xen_front.ko sound/xen/snd_xen_front.o sound/xen/snd_xen_front.mod.o;  true

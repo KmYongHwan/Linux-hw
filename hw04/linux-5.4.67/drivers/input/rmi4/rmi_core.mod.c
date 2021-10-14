@@ -1,0 +1,155 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0x7459220b, "module_layout" },
+	{ 0x4a4c2028, "vb2_ioctl_reqbufs" },
+	{ 0x3ce4ca6f, "disable_irq" },
+	{ 0x35db28d0, "bus_register" },
+	{ 0xedec5990, "kmalloc_caches" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0xf44a972b, "driver_register" },
+	{ 0x1ed8b599, "__x86_indirect_thunk_r8" },
+	{ 0xb7935f8d, "video_device_release_empty" },
+	{ 0xeed57dfe, "param_ops_int" },
+	{ 0xe6b0c66a, "dev_printk" },
+	{ 0x20a789ac, "irq_set_chip_data" },
+	{ 0xae0b7652, "v4l2_device_unregister" },
+	{ 0x88bcad7a, "vb2_fop_poll" },
+	{ 0x2901b4a8, "input_alloc_absinfo" },
+	{ 0x88a1a04c, "irq_find_mapping" },
+	{ 0xc0a3d105, "find_next_bit" },
+	{ 0xffeedf6a, "delayed_work_timer_fn" },
+	{ 0x4d0af5e1, "vb2_ioctl_streamon" },
+	{ 0x66b4cc41, "kmemdup" },
+	{ 0x206a96df, "vb2_ops_wait_prepare" },
+	{ 0xeae3dfd6, "__const_udelay" },
+	{ 0x8339c695, "__video_register_device" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x9fa7184a, "cancel_delayed_work_sync" },
+	{ 0x409bcb62, "mutex_unlock" },
+	{ 0x816b3ac4, "serio_interrupt" },
+	{ 0xc9328139, "irq_create_mapping" },
+	{ 0xa82f8d7f, "sysfs_remove_group" },
+	{ 0xbb3d2c11, "pv_ops" },
+	{ 0x9113120c, "devm_kasprintf" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0x6cc0246e, "input_set_abs_params" },
+	{ 0x204be45b, "v4l2_device_register" },
+	{ 0xce2840e7, "irq_set_irq_wake" },
+	{ 0x8756a1c8, "vb2_fop_read" },
+	{ 0x5ada0011, "input_event" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0xaa13729, "serio_unregister_port" },
+	{ 0xa084749a, "__bitmap_or" },
+	{ 0x89d0d600, "__irq_domain_add" },
+	{ 0x6a14014e, "_dev_warn" },
+	{ 0x9c3e6afa, "vb2_vmalloc_memops" },
+	{ 0x549525ef, "handle_nested_irq" },
+	{ 0x4f6dbf8e, "device_del" },
+	{ 0xbf9677a1, "vb2_fop_mmap" },
+	{ 0xf82e6ac6, "vb2_ioctl_qbuf" },
+	{ 0x977f511b, "__mutex_init" },
+	{ 0xc5850110, "printk" },
+	{ 0xc2107c52, "sysfs_create_group" },
+	{ 0x1acd8c06, "video_unregister_device" },
+	{ 0x236fd3f8, "vb2_plane_vaddr" },
+	{ 0xa58a74ac, "driver_unregister" },
+	{ 0x3978fecf, "vb2_buffer_done" },
+	{ 0x9166fada, "strncpy" },
+	{ 0x5792f848, "strlcpy" },
+	{ 0xa89177c8, "input_set_capability" },
+	{ 0x2ab7989d, "mutex_lock" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0x6d2e408f, "irq_get_irq_data" },
+	{ 0x224e3827, "input_mt_init_slots" },
+	{ 0xb6f7270a, "device_add" },
+	{ 0x9d5cf032, "vb2_ioctl_create_bufs" },
+	{ 0x890b3d61, "_dev_err" },
+	{ 0xf4358872, "devm_kfree" },
+	{ 0xdf752ab4, "bus_unregister" },
+	{ 0x25e732e1, "vb2_ioctl_dqbuf" },
+	{ 0x42160169, "flush_workqueue" },
+	{ 0x9a43e199, "_dev_info" },
+	{ 0x75c0bf03, "handle_simple_irq" },
+	{ 0xb601be4c, "__x86_indirect_thunk_rdx" },
+	{ 0x12a38747, "usleep_range" },
+	{ 0x2d31e203, "vb2_fop_release" },
+	{ 0x7ea19302, "put_device" },
+	{ 0xab75265c, "irq_set_chip_and_handler_name" },
+	{ 0x9b102a1a, "video_devdata" },
+	{ 0xb2fcb56d, "queue_delayed_work_on" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0xadfdfcef, "__bitmap_andnot" },
+	{ 0xff76d558, "input_register_device" },
+	{ 0x7522f3ba, "irq_modify_status" },
+	{ 0x47941711, "_raw_spin_lock_irq" },
+	{ 0x2ea2c95c, "__x86_indirect_thunk_rax" },
+	{ 0xeaa470a4, "irq_domain_simple_ops" },
+	{ 0xb01c5e76, "dev_driver_string" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0x9a3e4bed, "kmem_cache_alloc_trace" },
+	{ 0x8fc84781, "v4l2_fh_open" },
+	{ 0x39b52d19, "__bitmap_and" },
+	{ 0x30c0c597, "__serio_register_port" },
+	{ 0xb6b6e6e2, "vb2_ioctl_querybuf" },
+	{ 0xfcec0987, "enable_irq" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x71af84e7, "devm_input_allocate_device" },
+	{ 0x2af970a3, "device_initialize" },
+	{ 0x95f1e7a8, "input_mt_report_slot_state" },
+	{ 0x96848186, "scnprintf" },
+	{ 0x71deb539, "request_firmware" },
+	{ 0xb632faa4, "vb2_ops_wait_finish" },
+	{ 0x2c7db649, "irq_dispose_mapping" },
+	{ 0x74c134b9, "__sw_hweight32" },
+	{ 0xb352177e, "find_first_bit" },
+	{ 0x96ee549f, "irq_domain_remove" },
+	{ 0x63c4d61f, "__bitmap_weight" },
+	{ 0xe3f9339c, "input_mt_sync_frame" },
+	{ 0x29361773, "complete" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0x88e87cc6, "vb2_ioctl_expbuf" },
+	{ 0x4e83cd98, "dev_set_name" },
+	{ 0x7f02188f, "__msecs_to_jiffies" },
+	{ 0x95f367c2, "vb2_ioctl_streamoff" },
+	{ 0x74a69856, "devm_kmalloc" },
+	{ 0x4d1ff60a, "wait_for_completion_timeout" },
+	{ 0xbca28682, "devm_request_threaded_irq" },
+	{ 0xdf9208c0, "alloc_workqueue" },
+	{ 0xede283d, "release_firmware" },
+	{ 0x46aed09d, "video_ioctl2" },
+	{ 0x74b36a91, "input_mt_assign_slots" },
+	{ 0x3498c007, "vb2_queue_init" },
+};
+
+MODULE_INFO(depends, "videobuf2-v4l2,videodev,videobuf2-vmalloc,videobuf2-common");
+
+
+MODULE_INFO(srcversion, "12C386ABB6927AF5C4FCB48");

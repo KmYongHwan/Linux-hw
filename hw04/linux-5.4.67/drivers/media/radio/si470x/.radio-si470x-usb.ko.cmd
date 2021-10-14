@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si470x/radio-si470x-usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/radio/si470x/radio-si470x-usb.ko drivers/media/radio/si470x/radio-si470x-usb.o drivers/media/radio/si470x/radio-si470x-usb.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/phy/motorola/phy-cpcap-usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/phy/motorola/phy-cpcap-usb.ko drivers/phy/motorola/phy-cpcap-usb.o drivers/phy/motorola/phy-cpcap-usb.mod.o;  true

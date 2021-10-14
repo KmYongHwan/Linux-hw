@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_uac1_legacy.mod := { echo  drivers/usb/gadget/function/f_uac1_legacy.o drivers/usb/gadget/function/u_uac1_legacy.o; echo; } > drivers/usb/gadget/function/usb_f_uac1_legacy.mod

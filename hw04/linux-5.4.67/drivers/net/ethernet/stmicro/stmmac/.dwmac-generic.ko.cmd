@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/stmmac/dwmac-generic.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/stmicro/stmmac/dwmac-generic.ko drivers/net/ethernet/stmicro/stmmac/dwmac-generic.o drivers/net/ethernet/stmicro/stmmac/dwmac-generic.mod.o;  true

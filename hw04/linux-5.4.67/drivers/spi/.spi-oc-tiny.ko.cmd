@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-oc-tiny.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/spi/spi-oc-tiny.ko drivers/spi/spi-oc-tiny.o drivers/spi/spi-oc-tiny.mod.o;  true

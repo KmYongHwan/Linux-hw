@@ -1,0 +1,1 @@
+cmd_drivers/dma/qcom/hdma.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/dma/qcom/hdma.ko drivers/dma/qcom/hdma.o drivers/dma/qcom/hdma.mod.o;  true

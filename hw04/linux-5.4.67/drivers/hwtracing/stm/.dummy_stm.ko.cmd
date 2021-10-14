@@ -1,0 +1,1 @@
+cmd_drivers/hwtracing/stm/dummy_stm.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hwtracing/stm/dummy_stm.ko drivers/hwtracing/stm/dummy_stm.o drivers/hwtracing/stm/dummy_stm.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/regulator/tps6586x-regulator.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/tps6586x-regulator.ko drivers/regulator/tps6586x-regulator.o drivers/regulator/tps6586x-regulator.mod.o;  true

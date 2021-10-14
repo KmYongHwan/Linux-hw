@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/cros_ec_baro.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/pressure/cros_ec_baro.ko drivers/iio/pressure/cros_ec_baro.o drivers/iio/pressure/cros_ec_baro.mod.o;  true

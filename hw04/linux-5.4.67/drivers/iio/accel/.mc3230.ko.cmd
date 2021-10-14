@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/mc3230.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/accel/mc3230.ko drivers/iio/accel/mc3230.o drivers/iio/accel/mc3230.mod.o;  true

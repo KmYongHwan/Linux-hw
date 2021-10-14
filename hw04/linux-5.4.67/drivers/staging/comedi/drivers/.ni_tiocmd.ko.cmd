@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_tiocmd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/comedi/drivers/ni_tiocmd.ko drivers/staging/comedi/drivers/ni_tiocmd.o drivers/staging/comedi/drivers/ni_tiocmd.mod.o;  true

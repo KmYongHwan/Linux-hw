@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/sp887x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/sp887x.ko drivers/media/dvb-frontends/sp887x.o drivers/media/dvb-frontends/sp887x.mod.o;  true

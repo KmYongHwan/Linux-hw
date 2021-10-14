@@ -1,0 +1,1 @@
+cmd_drivers/slimbus/slim-qcom-ctrl.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/slimbus/slim-qcom-ctrl.ko drivers/slimbus/slim-qcom-ctrl.o drivers/slimbus/slim-qcom-ctrl.mod.o;  true

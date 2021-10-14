@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/parkbd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/serio/parkbd.ko drivers/input/serio/parkbd.o drivers/input/serio/parkbd.mod.o;  true

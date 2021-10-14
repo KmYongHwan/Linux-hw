@@ -1,0 +1,1 @@
+cmd_drivers/misc/xilinx_sdfec.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/xilinx_sdfec.ko drivers/misc/xilinx_sdfec.o drivers/misc/xilinx_sdfec.mod.o;  true

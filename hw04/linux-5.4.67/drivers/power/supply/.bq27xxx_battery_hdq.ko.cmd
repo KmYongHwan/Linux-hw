@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/bq27xxx_battery_hdq.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/bq27xxx_battery_hdq.ko drivers/power/supply/bq27xxx_battery_hdq.o drivers/power/supply/bq27xxx_battery_hdq.mod.o;  true

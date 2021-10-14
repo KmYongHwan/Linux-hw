@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/comedi_pcmcia.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/comedi/comedi_pcmcia.ko drivers/staging/comedi/comedi_pcmcia.o drivers/staging/comedi/comedi_pcmcia.mod.o;  true

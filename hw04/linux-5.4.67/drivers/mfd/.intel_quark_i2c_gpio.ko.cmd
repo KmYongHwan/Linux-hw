@@ -1,0 +1,1 @@
+cmd_drivers/mfd/intel_quark_i2c_gpio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/intel_quark_i2c_gpio.ko drivers/mfd/intel_quark_i2c_gpio.o drivers/mfd/intel_quark_i2c_gpio.mod.o;  true

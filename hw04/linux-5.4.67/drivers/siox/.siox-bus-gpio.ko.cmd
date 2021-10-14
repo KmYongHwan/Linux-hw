@@ -1,0 +1,1 @@
+cmd_drivers/siox/siox-bus-gpio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/siox/siox-bus-gpio.ko drivers/siox/siox-bus-gpio.o drivers/siox/siox-bus-gpio.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/soundwire/soundwire-bus.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/soundwire/soundwire-bus.ko drivers/soundwire/soundwire-bus.o drivers/soundwire/soundwire-bus.mod.o;  true

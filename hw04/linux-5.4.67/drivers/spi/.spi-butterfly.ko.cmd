@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-butterfly.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/spi/spi-butterfly.ko drivers/spi/spi-butterfly.o drivers/spi/spi-butterfly.mod.o;  true

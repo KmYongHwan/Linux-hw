@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/8250/8250_mid.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/serial/8250/8250_mid.ko drivers/tty/serial/8250/8250_mid.o drivers/tty/serial/8250/8250_mid.mod.o;  true

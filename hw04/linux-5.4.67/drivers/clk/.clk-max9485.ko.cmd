@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-max9485.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/clk/clk-max9485.ko drivers/clk/clk-max9485.o drivers/clk/clk-max9485.mod.o;  true

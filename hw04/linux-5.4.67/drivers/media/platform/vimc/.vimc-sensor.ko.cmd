@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/vimc/vimc-sensor.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/platform/vimc/vimc-sensor.ko drivers/media/platform/vimc/vimc-sensor.o drivers/media/platform/vimc/vimc-sensor.mod.o;  true

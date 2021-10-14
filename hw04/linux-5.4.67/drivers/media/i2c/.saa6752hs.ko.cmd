@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/saa6752hs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/i2c/saa6752hs.ko drivers/media/i2c/saa6752hs.o drivers/media/i2c/saa6752hs.mod.o;  true

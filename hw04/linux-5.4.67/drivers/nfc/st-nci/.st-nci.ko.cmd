@@ -1,0 +1,1 @@
+cmd_drivers/nfc/st-nci/st-nci.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/nfc/st-nci/st-nci.ko drivers/nfc/st-nci/st-nci.o drivers/nfc/st-nci/st-nci.mod.o;  true

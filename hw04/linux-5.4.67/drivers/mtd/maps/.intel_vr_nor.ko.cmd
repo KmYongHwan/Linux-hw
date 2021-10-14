@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/intel_vr_nor.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/maps/intel_vr_nor.ko drivers/mtd/maps/intel_vr_nor.o drivers/mtd/maps/intel_vr_nor.mod.o;  true

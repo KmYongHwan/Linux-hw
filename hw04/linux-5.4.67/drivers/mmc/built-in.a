@@ -1,0 +1,36 @@
+!<thin>
+//                                              264       `
+core/core.o/
+core/bus.o/
+core/host.o/
+core/mmc.o/
+core/mmc_ops.o/
+core/sd.o/
+core/sd_ops.o/
+core/sdio.o/
+core/sdio_ops.o/
+core/sdio_bus.o/
+core/sdio_cis.o/
+core/sdio_io.o/
+core/sdio_irq.o/
+core/slot-gpio.o/
+core/regulator.o/
+core/debugfs.o/
+host/sdhci-pci-data.o/
+/0              0           0     0     644     279616    `
+/13             0           0     0     644     40952     `
+/25             0           0     0     644     61880     `
+/38             0           0     0     644     133384    `
+/50             0           0     0     644     76584     `
+/66             0           0     0     644     95112     `
+/77             0           0     0     644     30776     `
+/92             0           0     0     644     68216     `
+/105            0           0     0     644     23080     `
+/122            0           0     0     644     44320     `
+/139            0           0     0     644     33048     `
+/156            0           0     0     644     64392     `
+/172            0           0     0     644     48344     `
+/189            0           0     0     644     35480     `
+/207            0           0     0     644     29872     `
+/225            0           0     0     644     26520     `
+/241            0           0     0     644     12968     `

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/mb862xx/mb862xxfb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/mb862xx/mb862xxfb.ko drivers/video/fbdev/mb862xx/mb862xxfb.o drivers/video/fbdev/mb862xx/mb862xxfb.mod.o;  true

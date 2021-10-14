@@ -1,0 +1,1 @@
+cmd_drivers/auxdisplay/panel.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/auxdisplay/panel.ko drivers/auxdisplay/panel.o drivers/auxdisplay/panel.mod.o;  true

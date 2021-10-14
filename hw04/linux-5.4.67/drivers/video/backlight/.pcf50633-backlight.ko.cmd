@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/pcf50633-backlight.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/backlight/pcf50633-backlight.ko drivers/video/backlight/pcf50633-backlight.o drivers/video/backlight/pcf50633-backlight.mod.o;  true

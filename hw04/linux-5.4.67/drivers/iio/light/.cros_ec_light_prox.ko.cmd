@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/cros_ec_light_prox.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/light/cros_ec_light_prox.ko drivers/iio/light/cros_ec_light_prox.o drivers/iio/light/cros_ec_light_prox.mod.o;  true

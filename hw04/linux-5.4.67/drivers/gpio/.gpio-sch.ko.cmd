@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-sch.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpio/gpio-sch.ko drivers/gpio/gpio-sch.o drivers/gpio/gpio-sch.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/sis/sisfb.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/video/fbdev/sis/sisfb.o drivers/video/fbdev/sis/sis_main.o drivers/video/fbdev/sis/sis_accel.o drivers/video/fbdev/sis/init.o drivers/video/fbdev/sis/init301.o drivers/video/fbdev/sis/initextlfb.o

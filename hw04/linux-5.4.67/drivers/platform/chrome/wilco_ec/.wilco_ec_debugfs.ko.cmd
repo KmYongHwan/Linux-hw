@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/wilco_ec/wilco_ec_debugfs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/platform/chrome/wilco_ec/wilco_ec_debugfs.ko drivers/platform/chrome/wilco_ec/wilco_ec_debugfs.o drivers/platform/chrome/wilco_ec/wilco_ec_debugfs.mod.o;  true

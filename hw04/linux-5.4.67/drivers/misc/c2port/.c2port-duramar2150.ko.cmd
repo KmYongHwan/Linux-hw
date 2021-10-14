@@ -1,0 +1,1 @@
+cmd_drivers/misc/c2port/c2port-duramar2150.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/c2port/c2port-duramar2150.ko drivers/misc/c2port/c2port-duramar2150.o drivers/misc/c2port/c2port-duramar2150.mod.o;  true

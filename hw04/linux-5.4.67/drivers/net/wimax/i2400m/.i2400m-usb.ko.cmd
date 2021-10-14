@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/i2400m/i2400m-usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wimax/i2400m/i2400m-usb.ko drivers/net/wimax/i2400m/i2400m-usb.o drivers/net/wimax/i2400m/i2400m-usb.mod.o;  true

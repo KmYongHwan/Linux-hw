@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/88pm80x_onkey.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/88pm80x_onkey.ko drivers/input/misc/88pm80x_onkey.o drivers/input/misc/88pm80x_onkey.mod.o;  true

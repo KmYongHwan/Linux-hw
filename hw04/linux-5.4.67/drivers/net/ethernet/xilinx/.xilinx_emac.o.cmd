@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/xilinx/xilinx_emac.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/net/ethernet/xilinx/xilinx_emac.o drivers/net/ethernet/xilinx/xilinx_axienet_main.o drivers/net/ethernet/xilinx/xilinx_axienet_mdio.o

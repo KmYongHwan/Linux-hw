@@ -1,0 +1,1 @@
+cmd_drivers/hv/hv_utils.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hv/hv_utils.ko drivers/hv/hv_utils.o drivers/hv/hv_utils.mod.o;  true

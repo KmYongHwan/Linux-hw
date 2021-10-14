@@ -1,0 +1,1 @@
+cmd_drivers/staging/pi433/pi433.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/pi433/pi433.ko drivers/staging/pi433/pi433.o drivers/staging/pi433/pi433.mod.o;  true

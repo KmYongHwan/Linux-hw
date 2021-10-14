@@ -1,0 +1,1 @@
+cmd_drivers/media/spi/gs1662.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/spi/gs1662.ko drivers/media/spi/gs1662.o drivers/media/spi/gs1662.mod.o;  true

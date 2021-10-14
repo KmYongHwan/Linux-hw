@@ -1,0 +1,1 @@
+cmd_drivers/regulator/88pg86x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/88pg86x.ko drivers/regulator/88pg86x.o drivers/regulator/88pg86x.mod.o;  true

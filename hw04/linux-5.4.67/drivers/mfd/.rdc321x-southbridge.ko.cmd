@@ -1,0 +1,1 @@
+cmd_drivers/mfd/rdc321x-southbridge.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/rdc321x-southbridge.ko drivers/mfd/rdc321x-southbridge.o drivers/mfd/rdc321x-southbridge.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/kpc2000/kpc_dma/kpc_dma.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/staging/kpc2000/kpc_dma/kpc_dma.o drivers/staging/kpc2000/kpc_dma/dma.o drivers/staging/kpc2000/kpc_dma/fileops.o drivers/staging/kpc2000/kpc_dma/kpc_dma_driver.o

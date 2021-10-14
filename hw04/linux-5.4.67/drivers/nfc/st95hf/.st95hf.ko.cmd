@@ -1,0 +1,1 @@
+cmd_drivers/nfc/st95hf/st95hf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/nfc/st95hf/st95hf.ko drivers/nfc/st95hf/st95hf.o drivers/nfc/st95hf/st95hf.mod.o;  true

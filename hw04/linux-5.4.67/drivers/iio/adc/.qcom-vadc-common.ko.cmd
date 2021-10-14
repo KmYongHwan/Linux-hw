@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/qcom-vadc-common.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/adc/qcom-vadc-common.ko drivers/iio/adc/qcom-vadc-common.o drivers/iio/adc/qcom-vadc-common.mod.o;  true

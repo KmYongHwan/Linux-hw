@@ -1,0 +1,1 @@
+cmd_drivers/net/arcnet/arc-rawmode.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/arcnet/arc-rawmode.ko drivers/net/arcnet/arc-rawmode.o drivers/net/arcnet/arc-rawmode.mod.o;  true

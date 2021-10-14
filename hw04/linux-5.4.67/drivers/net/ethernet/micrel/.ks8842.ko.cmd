@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/micrel/ks8842.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/micrel/ks8842.ko drivers/net/ethernet/micrel/ks8842.o drivers/net/ethernet/micrel/ks8842.mod.o;  true

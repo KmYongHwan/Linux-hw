@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/amd76xrom.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/maps/amd76xrom.ko drivers/mtd/maps/amd76xrom.o drivers/mtd/maps/amd76xrom.mod.o;  true

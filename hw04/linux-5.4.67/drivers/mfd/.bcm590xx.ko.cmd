@@ -1,0 +1,1 @@
+cmd_drivers/mfd/bcm590xx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/bcm590xx.ko drivers/mfd/bcm590xx.o drivers/mfd/bcm590xx.mod.o;  true

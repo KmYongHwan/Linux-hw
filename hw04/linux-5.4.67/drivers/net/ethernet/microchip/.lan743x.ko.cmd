@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/microchip/lan743x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/microchip/lan743x.ko drivers/net/ethernet/microchip/lan743x.o drivers/net/ethernet/microchip/lan743x.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/cx23885/cx23885.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/cx23885/cx23885.ko drivers/media/pci/cx23885/cx23885.o drivers/media/pci/cx23885/cx23885.mod.o;  true

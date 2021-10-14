@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/oxu210hp-hcd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/host/oxu210hp-hcd.ko drivers/usb/host/oxu210hp-hcd.o drivers/usb/host/oxu210hp-hcd.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/ipack/devices/ipoctal.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/ipack/devices/ipoctal.ko drivers/ipack/devices/ipoctal.o drivers/ipack/devices/ipoctal.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/i3c/master/i3c-master-cdns.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/i3c/master/i3c-master-cdns.ko drivers/i3c/master/i3c-master-cdns.o drivers/i3c/master/i3c-master-cdns.mod.o;  true

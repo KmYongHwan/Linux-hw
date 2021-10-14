@@ -1,0 +1,1 @@
+cmd_sound/soc/img/img-parallel-out.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/img/img-parallel-out.ko sound/soc/img/img-parallel-out.o sound/soc/img/img-parallel-out.mod.o;  true

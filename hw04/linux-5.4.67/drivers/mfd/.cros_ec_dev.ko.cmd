@@ -1,0 +1,1 @@
+cmd_drivers/mfd/cros_ec_dev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/cros_ec_dev.ko drivers/mfd/cros_ec_dev.o drivers/mfd/cros_ec_dev.mod.o;  true

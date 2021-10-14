@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/uPD60620.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/uPD60620.ko drivers/net/phy/uPD60620.o drivers/net/phy/uPD60620.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/wan/sbni.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wan/sbni.ko drivers/net/wan/sbni.o drivers/net/wan/sbni.mod.o;  true

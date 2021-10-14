@@ -1,0 +1,1 @@
+cmd_net/vmw_vsock/hv_sock.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o net/vmw_vsock/hv_sock.ko net/vmw_vsock/hv_sock.o net/vmw_vsock/hv_sock.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/max7359_keypad.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/keyboard/max7359_keypad.ko drivers/input/keyboard/max7359_keypad.o drivers/input/keyboard/max7359_keypad.mod.o;  true

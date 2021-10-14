@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_zero.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/gadget/legacy/g_zero.ko drivers/usb/gadget/legacy/g_zero.o drivers/usb/gadget/legacy/g_zero.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_i2c_nuvoton.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/char/tpm/tpm_i2c_nuvoton.ko drivers/char/tpm/tpm_i2c_nuvoton.o drivers/char/tpm/tpm_i2c_nuvoton.mod.o;  true

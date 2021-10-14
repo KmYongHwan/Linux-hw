@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/wishbone-serial.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/serial/wishbone-serial.ko drivers/usb/serial/wishbone-serial.o drivers/usb/serial/wishbone-serial.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbkbd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hid/usbhid/usbkbd.ko drivers/hid/usbhid/usbkbd.o drivers/hid/usbhid/usbkbd.mod.o;  true

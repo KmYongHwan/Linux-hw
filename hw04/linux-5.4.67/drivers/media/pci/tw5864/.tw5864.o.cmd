@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/tw5864/tw5864.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/media/pci/tw5864/tw5864.o drivers/media/pci/tw5864/tw5864-core.o drivers/media/pci/tw5864/tw5864-video.o drivers/media/pci/tw5864/tw5864-h264.o drivers/media/pci/tw5864/tw5864-util.o

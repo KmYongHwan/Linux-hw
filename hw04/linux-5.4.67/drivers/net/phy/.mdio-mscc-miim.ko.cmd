@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/mdio-mscc-miim.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/phy/mdio-mscc-miim.ko drivers/net/phy/mdio-mscc-miim.o drivers/net/phy/mdio-mscc-miim.mod.o;  true

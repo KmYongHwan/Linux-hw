@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/gpio-beeper.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/misc/gpio-beeper.ko drivers/input/misc/gpio-beeper.o drivers/input/misc/gpio-beeper.mod.o;  true

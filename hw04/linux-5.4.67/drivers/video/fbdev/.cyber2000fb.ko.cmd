@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/cyber2000fb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/cyber2000fb.ko drivers/video/fbdev/cyber2000fb.o drivers/video/fbdev/cyber2000fb.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/raw/plat_nand.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/nand/raw/plat_nand.ko drivers/mtd/nand/raw/plat_nand.o drivers/mtd/nand/raw/plat_nand.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/intel/ipu3/ipu3-cio2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/intel/ipu3/ipu3-cio2.ko drivers/media/pci/intel/ipu3/ipu3-cio2.o drivers/media/pci/intel/ipu3/ipu3-cio2.mod.o;  true

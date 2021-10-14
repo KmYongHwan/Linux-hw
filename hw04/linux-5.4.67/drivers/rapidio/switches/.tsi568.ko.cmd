@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/tsi568.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rapidio/switches/tsi568.ko drivers/rapidio/switches/tsi568.o drivers/rapidio/switches/tsi568.mod.o;  true

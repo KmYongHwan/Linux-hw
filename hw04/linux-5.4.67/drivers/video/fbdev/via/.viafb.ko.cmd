@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/via/viafb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/via/viafb.ko drivers/video/fbdev/via/viafb.o drivers/video/fbdev/via/viafb.mod.o;  true

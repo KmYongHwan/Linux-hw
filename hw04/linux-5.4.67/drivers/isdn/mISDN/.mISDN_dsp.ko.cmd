@@ -1,0 +1,1 @@
+cmd_drivers/isdn/mISDN/mISDN_dsp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/isdn/mISDN/mISDN_dsp.ko drivers/isdn/mISDN/mISDN_dsp.o drivers/isdn/mISDN/mISDN_dsp.mod.o;  true

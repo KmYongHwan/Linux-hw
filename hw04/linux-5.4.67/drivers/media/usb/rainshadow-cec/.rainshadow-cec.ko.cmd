@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/rainshadow-cec/rainshadow-cec.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/usb/rainshadow-cec/rainshadow-cec.ko drivers/media/usb/rainshadow-cec/rainshadow-cec.o drivers/media/usb/rainshadow-cec/rainshadow-cec.mod.o;  true

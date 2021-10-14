@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/rpmsg_char.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rpmsg/rpmsg_char.ko drivers/rpmsg/rpmsg_char.o drivers/rpmsg/rpmsg_char.mod.o;  true

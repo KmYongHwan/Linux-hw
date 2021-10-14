@@ -1,0 +1,1 @@
+cmd_drivers/auxdisplay/img-ascii-lcd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/auxdisplay/img-ascii-lcd.ko drivers/auxdisplay/img-ascii-lcd.o drivers/auxdisplay/img-ascii-lcd.mod.o;  true

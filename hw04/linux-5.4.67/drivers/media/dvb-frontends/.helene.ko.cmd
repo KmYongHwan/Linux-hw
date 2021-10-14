@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/helene.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/dvb-frontends/helene.ko drivers/media/dvb-frontends/helene.o drivers/media/dvb-frontends/helene.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-ti-lmu-common.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/leds/leds-ti-lmu-common.ko drivers/leds/leds-ti-lmu-common.o drivers/leds/leds-ti-lmu-common.mod.o;  true

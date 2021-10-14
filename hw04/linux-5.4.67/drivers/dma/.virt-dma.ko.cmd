@@ -1,0 +1,1 @@
+cmd_drivers/dma/virt-dma.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/dma/virt-dma.ko drivers/dma/virt-dma.o drivers/dma/virt-dma.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/max3421-hcd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/host/max3421-hcd.ko drivers/usb/host/max3421-hcd.o drivers/usb/host/max3421-hcd.mod.o;  true

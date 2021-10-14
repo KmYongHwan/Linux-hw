@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/ams369fg06.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/backlight/ams369fg06.ko drivers/video/backlight/ams369fg06.o drivers/video/backlight/ams369fg06.mod.o;  true

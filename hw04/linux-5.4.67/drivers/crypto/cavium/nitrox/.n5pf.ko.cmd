@@ -1,0 +1,1 @@
+cmd_drivers/crypto/cavium/nitrox/n5pf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/crypto/cavium/nitrox/n5pf.ko drivers/crypto/cavium/nitrox/n5pf.o drivers/crypto/cavium/nitrox/n5pf.mod.o;  true

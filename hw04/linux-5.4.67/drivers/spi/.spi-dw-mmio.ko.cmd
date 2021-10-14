@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-dw-mmio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/spi/spi-dw-mmio.ko drivers/spi/spi-dw-mmio.o drivers/spi/spi-dw-mmio.mod.o;  true

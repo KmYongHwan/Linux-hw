@@ -1,0 +1,1 @@
+cmd_drivers/slimbus/slimbus.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/slimbus/slimbus.ko drivers/slimbus/slimbus.o drivers/slimbus/slimbus.mod.o;  true

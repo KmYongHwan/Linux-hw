@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/sirf-audio-codec.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/codecs/sirf-audio-codec.ko sound/soc/codecs/sirf-audio-codec.o sound/soc/codecs/sirf-audio-codec.mod.o;  true

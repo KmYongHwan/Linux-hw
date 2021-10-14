@@ -1,0 +1,1 @@
+cmd_drivers/net/wan/lapbether.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wan/lapbether.ko drivers/net/wan/lapbether.o drivers/net/wan/lapbether.mod.o;  true

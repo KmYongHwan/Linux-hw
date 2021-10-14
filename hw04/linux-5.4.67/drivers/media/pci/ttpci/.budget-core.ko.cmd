@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/ttpci/budget-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/ttpci/budget-core.ko drivers/media/pci/ttpci/budget-core.o drivers/media/pci/ttpci/budget-core.mod.o;  true

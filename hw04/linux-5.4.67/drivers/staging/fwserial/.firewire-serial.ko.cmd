@@ -1,0 +1,1 @@
+cmd_drivers/staging/fwserial/firewire-serial.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/fwserial/firewire-serial.ko drivers/staging/fwserial/firewire-serial.o drivers/staging/fwserial/firewire-serial.mod.o;  true

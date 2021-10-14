@@ -1,0 +1,1 @@
+cmd_drivers/usb/cdns3/cdns3.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/cdns3/cdns3.ko drivers/usb/cdns3/cdns3.o drivers/usb/cdns3/cdns3.mod.o;  true

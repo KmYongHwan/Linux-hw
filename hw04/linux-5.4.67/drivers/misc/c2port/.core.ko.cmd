@@ -1,0 +1,1 @@
+cmd_drivers/misc/c2port/core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/c2port/core.ko drivers/misc/c2port/core.o drivers/misc/c2port/core.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/sm750fb/sm750fb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/sm750fb/sm750fb.ko drivers/staging/sm750fb/sm750fb.o drivers/staging/sm750fb/sm750fb.mod.o;  true

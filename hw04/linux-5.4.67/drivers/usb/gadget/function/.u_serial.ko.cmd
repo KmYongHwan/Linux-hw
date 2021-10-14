@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/u_serial.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/gadget/function/u_serial.ko drivers/usb/gadget/function/u_serial.o drivers/usb/gadget/function/u_serial.mod.o;  true

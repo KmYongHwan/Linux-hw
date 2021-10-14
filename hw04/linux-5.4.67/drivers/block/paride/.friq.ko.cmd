@@ -1,0 +1,1 @@
+cmd_drivers/block/paride/friq.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/block/paride/friq.ko drivers/block/paride/friq.o drivers/block/paride/friq.mod.o;  true

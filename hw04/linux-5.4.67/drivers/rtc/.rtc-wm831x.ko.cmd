@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-wm831x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rtc/rtc-wm831x.ko drivers/rtc/rtc-wm831x.o drivers/rtc/rtc-wm831x.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/chipidea/ci_hdrc.mod := { echo  drivers/usb/chipidea/core.o drivers/usb/chipidea/otg.o drivers/usb/chipidea/debug.o drivers/usb/chipidea/ulpi.o drivers/usb/chipidea/udc.o drivers/usb/chipidea/host.o; echo; } > drivers/usb/chipidea/ci_hdrc.mod

@@ -1,0 +1,1 @@
+cmd_drivers/isdn/hardware/mISDN/speedfax.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/isdn/hardware/mISDN/speedfax.ko drivers/isdn/hardware/mISDN/speedfax.o drivers/isdn/hardware/mISDN/speedfax.mod.o;  true

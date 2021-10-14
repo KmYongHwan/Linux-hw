@@ -1,0 +1,1 @@
+cmd_sound/soc/fsl/snd-soc-fsl-audmix.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/fsl/snd-soc-fsl-audmix.ko sound/soc/fsl/snd-soc-fsl-audmix.o sound/soc/fsl/snd-soc-fsl-audmix.mod.o;  true

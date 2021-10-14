@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/hyperv_fb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/hyperv_fb.ko drivers/video/fbdev/hyperv_fb.o drivers/video/fbdev/hyperv_fb.mod.o;  true

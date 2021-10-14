@@ -1,0 +1,1 @@
+cmd_drivers/i3c/master/dw-i3c-master.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/i3c/master/dw-i3c-master.ko drivers/i3c/master/dw-i3c-master.o drivers/i3c/master/dw-i3c-master.mod.o;  true

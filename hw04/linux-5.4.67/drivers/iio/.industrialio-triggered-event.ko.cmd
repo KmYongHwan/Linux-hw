@@ -1,0 +1,1 @@
+cmd_drivers/iio/industrialio-triggered-event.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/industrialio-triggered-event.ko drivers/iio/industrialio-triggered-event.o drivers/iio/industrialio-triggered-event.mod.o;  true

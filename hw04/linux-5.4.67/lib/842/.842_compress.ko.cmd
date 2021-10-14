@@ -1,0 +1,1 @@
+cmd_lib/842/842_compress.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o lib/842/842_compress.ko lib/842/842_compress.o lib/842/842_compress.mod.o;  true

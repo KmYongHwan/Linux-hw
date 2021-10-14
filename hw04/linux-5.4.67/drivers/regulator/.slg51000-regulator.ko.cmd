@@ -1,0 +1,1 @@
+cmd_drivers/regulator/slg51000-regulator.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/slg51000-regulator.ko drivers/regulator/slg51000-regulator.o drivers/regulator/slg51000-regulator.mod.o;  true

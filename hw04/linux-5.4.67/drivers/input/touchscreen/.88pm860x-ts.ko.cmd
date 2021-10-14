@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/88pm860x-ts.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/input/touchscreen/88pm860x-ts.ko drivers/input/touchscreen/88pm860x-ts.o drivers/input/touchscreen/88pm860x-ts.mod.o;  true

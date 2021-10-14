@@ -1,0 +1,1 @@
+cmd_drivers/hv/hv_balloon.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/hv/hv_balloon.ko drivers/hv/hv_balloon.o drivers/hv/hv_balloon.mod.o;  true

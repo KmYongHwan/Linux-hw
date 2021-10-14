@@ -1,0 +1,1 @@
+cmd_drivers/phy/marvell/phy-pxa-28nm-hsic.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/phy/marvell/phy-pxa-28nm-hsic.ko drivers/phy/marvell/phy-pxa-28nm-hsic.o drivers/phy/marvell/phy-pxa-28nm-hsic.mod.o;  true

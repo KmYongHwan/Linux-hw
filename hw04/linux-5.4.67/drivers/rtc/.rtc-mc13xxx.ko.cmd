@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-mc13xxx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rtc/rtc-mc13xxx.ko drivers/rtc/rtc-mc13xxx.o drivers/rtc/rtc-mc13xxx.mod.o;  true

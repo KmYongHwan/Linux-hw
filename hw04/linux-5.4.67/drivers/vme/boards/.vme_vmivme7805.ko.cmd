@@ -1,0 +1,1 @@
+cmd_drivers/vme/boards/vme_vmivme7805.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/vme/boards/vme_vmivme7805.ko drivers/vme/boards/vme_vmivme7805.o drivers/vme/boards/vme_vmivme7805.mod.o;  true

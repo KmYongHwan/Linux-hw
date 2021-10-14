@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tiny/mi0283qt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/tiny/mi0283qt.ko drivers/gpu/drm/tiny/mi0283qt.o drivers/gpu/drm/tiny/mi0283qt.mod.o;  true

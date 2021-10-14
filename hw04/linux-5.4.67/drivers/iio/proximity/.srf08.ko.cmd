@@ -1,0 +1,1 @@
+cmd_drivers/iio/proximity/srf08.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/proximity/srf08.ko drivers/iio/proximity/srf08.o drivers/iio/proximity/srf08.mod.o;  true

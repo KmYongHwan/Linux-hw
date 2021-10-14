@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/raw/r852.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/nand/raw/r852.ko drivers/mtd/nand/raw/r852.o drivers/mtd/nand/raw/r852.mod.o;  true

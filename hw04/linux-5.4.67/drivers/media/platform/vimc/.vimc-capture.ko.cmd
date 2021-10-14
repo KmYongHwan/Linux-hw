@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/vimc/vimc-capture.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/platform/vimc/vimc-capture.ko drivers/media/platform/vimc/vimc-capture.o drivers/media/platform/vimc/vimc-capture.mod.o;  true

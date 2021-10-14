@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/xilinx-xadc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/adc/xilinx-xadc.ko drivers/iio/adc/xilinx-xadc.o drivers/iio/adc/xilinx-xadc.mod.o;  true

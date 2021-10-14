@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/uartlite.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/serial/uartlite.ko drivers/tty/serial/uartlite.o drivers/tty/serial/uartlite.mod.o;  true

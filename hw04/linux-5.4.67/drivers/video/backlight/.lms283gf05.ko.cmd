@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/lms283gf05.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/backlight/lms283gf05.ko drivers/video/backlight/lms283gf05.o drivers/video/backlight/lms283gf05.mod.o;  true

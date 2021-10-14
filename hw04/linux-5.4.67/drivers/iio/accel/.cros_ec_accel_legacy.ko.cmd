@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/cros_ec_accel_legacy.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/iio/accel/cros_ec_accel_legacy.ko drivers/iio/accel/cros_ec_accel_legacy.o drivers/iio/accel/cros_ec_accel_legacy.mod.o;  true

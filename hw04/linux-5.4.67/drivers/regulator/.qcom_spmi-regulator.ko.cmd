@@ -1,0 +1,1 @@
+cmd_drivers/regulator/qcom_spmi-regulator.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/qcom_spmi-regulator.ko drivers/regulator/qcom_spmi-regulator.o drivers/regulator/qcom_spmi-regulator.mod.o;  true

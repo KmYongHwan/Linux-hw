@@ -1,0 +1,1 @@
+cmd_drivers/xen/xen-front-pgdir-shbuf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/xen/xen-front-pgdir-shbuf.ko drivers/xen/xen-front-pgdir-shbuf.o drivers/xen/xen-front-pgdir-shbuf.mod.o;  true

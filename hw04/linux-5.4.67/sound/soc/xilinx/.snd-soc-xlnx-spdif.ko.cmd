@@ -1,0 +1,1 @@
+cmd_sound/soc/xilinx/snd-soc-xlnx-spdif.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/xilinx/snd-soc-xlnx-spdif.ko sound/soc/xilinx/snd-soc-xlnx-spdif.o sound/soc/xilinx/snd-soc-xlnx-spdif.mod.o;  true

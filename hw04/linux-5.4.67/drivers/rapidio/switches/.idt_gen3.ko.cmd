@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/idt_gen3.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rapidio/switches/idt_gen3.ko drivers/rapidio/switches/idt_gen3.o drivers/rapidio/switches/idt_gen3.mod.o;  true

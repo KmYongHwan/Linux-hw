@@ -1,0 +1,202 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0x7459220b, "module_layout" },
+	{ 0x44e1b7dc, "alloc_pages_current" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0xedec5990, "kmalloc_caches" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0xc4f0da12, "ktime_get_with_offset" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0x862258db, "timecounter_init" },
+	{ 0x210204b2, "dcb_ieee_setapp" },
+	{ 0xb26a1add, "elfcorehdr_addr" },
+	{ 0xc8676d46, "skb_clone_tx_timestamp" },
+	{ 0xddce8d3c, "napi_disable" },
+	{ 0xe3611c52, "napi_schedule_prep" },
+	{ 0x7bbc3d3f, "__napi_schedule_irqoff" },
+	{ 0x88ed209e, "xdp_rxq_info_reg" },
+	{ 0x445a81ce, "boot_cpu_data" },
+	{ 0xc7a4fbed, "rtnl_lock" },
+	{ 0x2e93ccc3, "netdev_set_num_tc" },
+	{ 0x97e005d1, "netif_carrier_on" },
+	{ 0xb3635b01, "_raw_spin_lock_bh" },
+	{ 0x90236277, "tcp_gro_complete" },
+	{ 0xffeedf6a, "delayed_work_timer_fn" },
+	{ 0xdf566a59, "__x86_indirect_thunk_r9" },
+	{ 0xd2da1048, "register_netdevice_notifier" },
+	{ 0x34b60257, "netif_carrier_off" },
+	{ 0x56470118, "__warn_printk" },
+	{ 0x3c12dfe, "cancel_work_sync" },
+	{ 0xcfddf021, "xdp_rxq_info_unreg" },
+	{ 0x8a5087f2, "call_netdevice_notifiers" },
+	{ 0x61657774, "bpf_prog_add" },
+	{ 0x88c30f54, "__dev_kfree_skb_any" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x9fa7184a, "cancel_delayed_work_sync" },
+	{ 0x409bcb62, "mutex_unlock" },
+	{ 0x999e8297, "vfree" },
+	{ 0x445ce05b, "dma_free_attrs" },
+	{ 0x31e86ef3, "netdev_reset_tc" },
+	{ 0x70ebd226, "rps_may_expire_flow" },
+	{ 0x4629334c, "__preempt_count" },
+	{ 0x165b145c, "ex_handler_refcount" },
+	{ 0x7a2af7b4, "cpu_number" },
+	{ 0x97651e6c, "vmemmap_base" },
+	{ 0x274dc2b, "netif_get_num_default_rss_queues" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0xbb3d2c11, "pv_ops" },
+	{ 0x3f66d19f, "netif_napi_del" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0x9d0d6206, "unregister_netdevice_notifier" },
+	{ 0xd5209ccf, "__netdev_alloc_skb" },
+	{ 0xb47cca30, "csum_ipv6_magic" },
+	{ 0x7fc80ca5, "__pskb_pull_tail" },
+	{ 0xccbc429c, "ptp_clock_unregister" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0x6b10bee1, "_copy_to_user" },
+	{ 0x3c0193e5, "netdev_set_tc_queue" },
+	{ 0x43f3f761, "flow_rule_match_ipv6_addrs" },
+	{ 0x6de13801, "wait_for_completion" },
+	{ 0xceb84250, "netif_schedule_queue" },
+	{ 0x7e526bfa, "__x86_indirect_thunk_r10" },
+	{ 0x74e1adb5, "flow_rule_match_ports" },
+	{ 0xfb578fc5, "memset" },
+	{ 0x1e1e140e, "ns_to_timespec64" },
+	{ 0x4fd745b8, "netif_tx_wake_queue" },
+	{ 0x977f511b, "__mutex_init" },
+	{ 0xc5850110, "printk" },
+	{ 0x3c3fce39, "__local_bh_enable_ip" },
+	{ 0x449ad0a7, "memcmp" },
+	{ 0x5a5a2271, "__cpu_online_mask" },
+	{ 0xa00aca2a, "dql_completed" },
+	{ 0x4c9d28b0, "phys_base" },
+	{ 0xa80ea35, "free_netdev" },
+	{ 0xd4f82b0b, "register_netdev" },
+	{ 0x9eeeef48, "qed_put_eth_ops" },
+	{ 0xf7f271ce, "dma_direct_map_page" },
+	{ 0x5792f848, "strlcpy" },
+	{ 0x3ef84baf, "dma_alloc_attrs" },
+	{ 0x2ab7989d, "mutex_lock" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0x4354c4d5, "ethtool_rx_flow_rule_create" },
+	{ 0x7763ec00, "netif_set_real_num_rx_queues" },
+	{ 0xcab3e906, "netif_set_real_num_tx_queues" },
+	{ 0x6ab9090f, "netif_napi_add" },
+	{ 0xc1d2d562, "ptp_clock_register" },
+	{ 0x92d5838e, "request_threaded_irq" },
+	{ 0x9198c918, "softnet_data" },
+	{ 0x890b3d61, "_dev_err" },
+	{ 0xf84bd6ee, "bpf_stats_enabled_key" },
+	{ 0x6f791233, "alloc_cpu_rmap" },
+	{ 0x42160169, "flush_workqueue" },
+	{ 0x810be09, "free_irq_cpu_rmap" },
+	{ 0xf11543ff, "find_first_zero_bit" },
+	{ 0xe523ad75, "synchronize_irq" },
+	{ 0x6f9e763b, "timecounter_read" },
+	{ 0xe4b30419, "build_skb" },
+	{ 0x9dd6fef0, "flow_rule_match_basic" },
+	{ 0x3fb884fb, "flow_block_cb_setup_simple" },
+	{ 0x8380220d, "xdp_rxq_info_is_reg" },
+	{ 0x7cd8d75e, "page_offset_base" },
+	{ 0xe04c3b72, "netdev_pick_tx" },
+	{ 0x568ff55a, "dma_direct_unmap_page" },
+	{ 0xb8212341, "timecounter_cyc2time" },
+	{ 0x83ff0628, "napi_gro_receive" },
+	{ 0x9a43e199, "_dev_info" },
+	{ 0x40a9b349, "vzalloc" },
+	{ 0x43a8e2b7, "__free_pages" },
+	{ 0xbb61b5d4, "netif_device_detach" },
+	{ 0xa916b694, "strnlen" },
+	{ 0x12a38747, "usleep_range" },
+	{ 0x49c41a57, "_raw_spin_unlock_bh" },
+	{ 0xb2fcb56d, "queue_delayed_work_on" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0x9cb986f2, "vmalloc_base" },
+	{ 0xb8b9f817, "kmalloc_order_trace" },
+	{ 0x3f9d1335, "napi_complete_done" },
+	{ 0x2ea2c95c, "__x86_indirect_thunk_rax" },
+	{ 0x57c0cb89, "eth_type_trans" },
+	{ 0x3a26ed11, "sched_clock" },
+	{ 0xb01c5e76, "dev_driver_string" },
+	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0x4b2dcc89, "netdev_err" },
+	{ 0x467df16d, "netdev_rss_key_fill" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0x5aae2095, "pci_unregister_driver" },
+	{ 0xcc5005fe, "msleep_interruptible" },
+	{ 0x9a3e4bed, "kmem_cache_alloc_trace" },
+	{ 0xdbf17652, "_raw_spin_lock" },
+	{ 0x45b1452a, "flow_rule_match_ipv4_addrs" },
+	{ 0x8b5b25c8, "irq_cpu_rmap_add" },
+	{ 0xb1da8e4, "eth_validate_addr" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x69acdf38, "memcpy" },
+	{ 0x17212a9a, "ptp_clock_index" },
+	{ 0xc7bc4c0c, "pci_num_vf" },
+	{ 0x135f9e2b, "dma_direct_sync_single_for_device" },
+	{ 0x9dba8f45, "__pci_register_driver" },
+	{ 0x15af7f4, "system_state" },
+	{ 0x53569707, "this_cpu_off" },
+	{ 0xc4e35547, "unregister_netdev" },
+	{ 0x5c2bcd37, "bpf_warn_invalid_xdp_action" },
+	{ 0xc5b6f236, "queue_work_on" },
+	{ 0x29361773, "complete" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0x15314fce, "consume_skb" },
+	{ 0x85670f1d, "rtnl_is_locked" },
+	{ 0xa1a544ef, "skb_tstamp_tx" },
+	{ 0x9c160d9e, "skb_put" },
+	{ 0x13c49cc2, "_copy_from_user" },
+	{ 0x746e0714, "ethtool_rx_flow_rule_destroy" },
+	{ 0x442639ef, "param_ops_uint" },
+	{ 0xae4bd1fb, "skb_copy_bits" },
+	{ 0xdf9208c0, "alloc_workqueue" },
+	{ 0x50e3fac4, "bpf_prog_put" },
+	{ 0x2627c16a, "qed_get_eth_ops" },
+	{ 0x6e720ff2, "rtnl_unlock" },
+	{ 0xa637b975, "dma_ops" },
+	{ 0xc1514a3b, "free_irq" },
+	{ 0xe914e41e, "strcpy" },
+	{ 0x2192013e, "alloc_etherdev_mqs" },
+	{ 0x666b755a, "__tracepoint_xdp_exception" },
+};
+
+MODULE_INFO(depends, "qed");
+
+MODULE_ALIAS("pci:v00001077d00001634sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001077d00001666sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001077d00001636sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001077d00001644sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001077d00001654sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001077d00001656sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001077d00001664sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001077d00008070sv*sd*bc*sc*i*");
+MODULE_ALIAS("pci:v00001077d00008090sv*sd*bc*sc*i*");
+
+MODULE_INFO(srcversion, "5E64DB8B89E4378B94D9D56");

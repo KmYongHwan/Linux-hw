@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/kyro/kyrofb.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/video/fbdev/kyro/kyrofb.o drivers/video/fbdev/kyro/STG4000Ramdac.o drivers/video/fbdev/kyro/STG4000VTG.o drivers/video/fbdev/kyro/STG4000OverlayDevice.o drivers/video/fbdev/kyro/STG4000InitDevice.o drivers/video/fbdev/kyro/fbdev.o

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/parsers/ar7part.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/parsers/ar7part.ko drivers/mtd/parsers/ar7part.o drivers/mtd/parsers/ar7part.mod.o;  true

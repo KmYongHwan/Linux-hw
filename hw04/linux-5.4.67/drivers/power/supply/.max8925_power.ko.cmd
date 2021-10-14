@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/max8925_power.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/max8925_power.ko drivers/power/supply/max8925_power.o drivers/power/supply/max8925_power.mod.o;  true

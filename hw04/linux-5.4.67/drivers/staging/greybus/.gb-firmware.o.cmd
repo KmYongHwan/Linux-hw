@@ -1,0 +1,1 @@
+cmd_drivers/staging/greybus/gb-firmware.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/staging/greybus/gb-firmware.o drivers/staging/greybus/fw-core.o drivers/staging/greybus/fw-download.o drivers/staging/greybus/fw-management.o drivers/staging/greybus/authentication.o

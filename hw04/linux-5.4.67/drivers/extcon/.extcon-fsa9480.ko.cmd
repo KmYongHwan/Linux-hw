@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-fsa9480.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/extcon/extcon-fsa9480.ko drivers/extcon/extcon-fsa9480.o drivers/extcon/extcon-fsa9480.mod.o;  true

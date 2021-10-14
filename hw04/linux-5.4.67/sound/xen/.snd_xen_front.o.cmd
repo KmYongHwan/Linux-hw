@@ -1,0 +1,1 @@
+cmd_sound/xen/snd_xen_front.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o sound/xen/snd_xen_front.o sound/xen/xen_snd_front.o sound/xen/xen_snd_front_cfg.o sound/xen/xen_snd_front_evtchnl.o sound/xen/xen_snd_front_alsa.o

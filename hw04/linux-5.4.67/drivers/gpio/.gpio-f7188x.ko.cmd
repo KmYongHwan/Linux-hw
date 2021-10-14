@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-f7188x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpio/gpio-f7188x.ko drivers/gpio/gpio-f7188x.o drivers/gpio/gpio-f7188x.mod.o;  true

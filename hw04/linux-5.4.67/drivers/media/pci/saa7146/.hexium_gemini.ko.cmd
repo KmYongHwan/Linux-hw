@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/saa7146/hexium_gemini.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/pci/saa7146/hexium_gemini.ko drivers/media/pci/saa7146/hexium_gemini.o drivers/media/pci/saa7146/hexium_gemini.mod.o;  true

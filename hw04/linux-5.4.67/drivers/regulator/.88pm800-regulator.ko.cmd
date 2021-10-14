@@ -1,0 +1,1 @@
+cmd_drivers/regulator/88pm800-regulator.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/88pm800-regulator.ko drivers/regulator/88pm800-regulator.o drivers/regulator/88pm800-regulator.mod.o;  true

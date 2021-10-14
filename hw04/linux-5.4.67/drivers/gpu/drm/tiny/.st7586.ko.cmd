@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tiny/st7586.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/tiny/st7586.ko drivers/gpu/drm/tiny/st7586.o drivers/gpu/drm/tiny/st7586.mod.o;  true

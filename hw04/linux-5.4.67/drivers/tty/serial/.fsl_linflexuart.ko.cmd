@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/fsl_linflexuart.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/tty/serial/fsl_linflexuart.ko drivers/tty/serial/fsl_linflexuart.o drivers/tty/serial/fsl_linflexuart.mod.o;  true

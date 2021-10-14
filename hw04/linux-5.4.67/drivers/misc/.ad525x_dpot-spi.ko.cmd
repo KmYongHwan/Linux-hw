@@ -1,0 +1,1 @@
+cmd_drivers/misc/ad525x_dpot-spi.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/ad525x_dpot-spi.ko drivers/misc/ad525x_dpot-spi.o drivers/misc/ad525x_dpot-spi.mod.o;  true

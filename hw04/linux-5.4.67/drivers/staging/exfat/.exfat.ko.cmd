@@ -1,0 +1,1 @@
+cmd_drivers/staging/exfat/exfat.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/exfat/exfat.ko drivers/staging/exfat/exfat.o drivers/staging/exfat/exfat.mod.o;  true

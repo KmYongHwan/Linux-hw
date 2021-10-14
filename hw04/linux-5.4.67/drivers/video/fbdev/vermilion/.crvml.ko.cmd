@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/vermilion/crvml.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/vermilion/crvml.ko drivers/video/fbdev/vermilion/crvml.o drivers/video/fbdev/vermilion/crvml.mod.o;  true

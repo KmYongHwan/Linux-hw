@@ -1,0 +1,1 @@
+cmd_drivers/net/arcnet/rfc1051.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/arcnet/rfc1051.ko drivers/net/arcnet/rfc1051.o drivers/net/arcnet/rfc1051.mod.o;  true

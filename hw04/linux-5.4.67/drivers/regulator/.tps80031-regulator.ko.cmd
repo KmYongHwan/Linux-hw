@@ -1,0 +1,1 @@
+cmd_drivers/regulator/tps80031-regulator.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/tps80031-regulator.ko drivers/regulator/tps80031-regulator.o drivers/regulator/tps80031-regulator.mod.o;  true

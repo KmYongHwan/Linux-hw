@@ -1,0 +1,1 @@
+cmd_drivers/isdn/hardware/mISDN/w6692.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/isdn/hardware/mISDN/w6692.ko drivers/isdn/hardware/mISDN/w6692.o drivers/isdn/hardware/mISDN/w6692.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/gasket/gasket.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/staging/gasket/gasket.o drivers/staging/gasket/gasket_core.o drivers/staging/gasket/gasket_ioctl.o drivers/staging/gasket/gasket_interrupt.o drivers/staging/gasket/gasket_page_table.o drivers/staging/gasket/gasket_sysfs.o

@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/da9052-battery.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/da9052-battery.ko drivers/power/supply/da9052-battery.o drivers/power/supply/da9052-battery.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/gpio-charger.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/power/supply/gpio-charger.ko drivers/power/supply/gpio-charger.o drivers/power/supply/gpio-charger.mod.o;  true

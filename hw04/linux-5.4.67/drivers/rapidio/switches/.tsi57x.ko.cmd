@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/tsi57x.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/rapidio/switches/tsi57x.ko drivers/rapidio/switches/tsi57x.o drivers/rapidio/switches/tsi57x.mod.o;  true

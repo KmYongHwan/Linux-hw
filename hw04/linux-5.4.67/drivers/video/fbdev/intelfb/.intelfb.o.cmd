@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/intelfb/intelfb.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/video/fbdev/intelfb/intelfb.o drivers/video/fbdev/intelfb/intelfbdrv.o drivers/video/fbdev/intelfb/intelfbhw.o drivers/video/fbdev/intelfb/intelfb_i2c.o

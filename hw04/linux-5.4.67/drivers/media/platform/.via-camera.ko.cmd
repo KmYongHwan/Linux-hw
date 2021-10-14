@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/via-camera.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/platform/via-camera.ko drivers/media/platform/via-camera.o drivers/media/platform/via-camera.mod.o;  true

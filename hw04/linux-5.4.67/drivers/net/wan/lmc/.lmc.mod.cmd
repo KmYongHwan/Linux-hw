@@ -1,0 +1,1 @@
+cmd_drivers/net/wan/lmc/lmc.mod := { echo  drivers/net/wan/lmc/lmc_debug.o drivers/net/wan/lmc/lmc_media.o drivers/net/wan/lmc/lmc_main.o drivers/net/wan/lmc/lmc_proto.o; echo; } > drivers/net/wan/lmc/lmc.mod

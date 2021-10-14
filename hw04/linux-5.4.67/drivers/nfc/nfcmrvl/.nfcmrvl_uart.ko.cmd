@@ -1,0 +1,1 @@
+cmd_drivers/nfc/nfcmrvl/nfcmrvl_uart.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/nfc/nfcmrvl/nfcmrvl_uart.ko drivers/nfc/nfcmrvl/nfcmrvl_uart.o drivers/nfc/nfcmrvl/nfcmrvl_uart.mod.o;  true

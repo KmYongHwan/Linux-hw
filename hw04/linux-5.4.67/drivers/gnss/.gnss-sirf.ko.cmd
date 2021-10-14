@@ -1,0 +1,1 @@
+cmd_drivers/gnss/gnss-sirf.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gnss/gnss-sirf.ko drivers/gnss/gnss-sirf.o drivers/gnss/gnss-sirf.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/arcfb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/arcfb.ko drivers/video/fbdev/arcfb.o drivers/video/fbdev/arcfb.mod.o;  true

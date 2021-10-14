@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/vermilion/vmlfb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/video/fbdev/vermilion/vmlfb.ko drivers/video/fbdev/vermilion/vmlfb.o drivers/video/fbdev/vermilion/vmlfb.mod.o;  true

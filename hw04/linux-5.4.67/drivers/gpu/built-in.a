@@ -1,0 +1,10 @@
+!<thin>
+//                                              92        `
+drm/drm_mipi_dsi.o/
+drm/drm_panel_orientation_quirks.o/
+vga/vgaarb.o/
+vga/vga_switcheroo.o/
+/0              0           0     0     644     99416     `
+/20             0           0     0     644     28240     `
+/56             0           0     0     644     113248    `
+/70             0           0     0     644     82480     `

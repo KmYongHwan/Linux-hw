@@ -1,0 +1,1 @@
+cmd_drivers/regulator/sky81452-regulator.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/sky81452-regulator.ko drivers/regulator/sky81452-regulator.o drivers/regulator/sky81452-regulator.mod.o;  true

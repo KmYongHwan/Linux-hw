@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/acquirewdt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/watchdog/acquirewdt.ko drivers/watchdog/acquirewdt.o drivers/watchdog/acquirewdt.mod.o;  true

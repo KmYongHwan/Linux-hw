@@ -1,0 +1,1 @@
+cmd_drivers/mfd/kempld-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mfd/kempld-core.ko drivers/mfd/kempld-core.o drivers/mfd/kempld-core.mod.o;  true

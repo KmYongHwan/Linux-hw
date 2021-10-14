@@ -1,0 +1,1 @@
+cmd_drivers/misc/dummy-irq.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/misc/dummy-irq.ko drivers/misc/dummy-irq.o drivers/misc/dummy-irq.mod.o;  true

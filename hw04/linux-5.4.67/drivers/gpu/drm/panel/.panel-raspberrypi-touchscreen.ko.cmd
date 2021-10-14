@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-raspberrypi-touchscreen.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpu/drm/panel/panel-raspberrypi-touchscreen.ko drivers/gpu/drm/panel/panel-raspberrypi-touchscreen.o drivers/gpu/drm/panel/panel-raspberrypi-touchscreen.mod.o;  true

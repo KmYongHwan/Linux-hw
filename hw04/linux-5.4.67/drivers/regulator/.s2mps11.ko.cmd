@@ -1,0 +1,1 @@
+cmd_drivers/regulator/s2mps11.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/regulator/s2mps11.ko drivers/regulator/s2mps11.o drivers/regulator/s2mps11.mod.o;  true

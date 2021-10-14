@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/u_audio.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/usb/gadget/function/u_audio.ko drivers/usb/gadget/function/u_audio.o drivers/usb/gadget/function/u_audio.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/cros_ec_sysfs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/platform/chrome/cros_ec_sysfs.ko drivers/platform/chrome/cros_ec_sysfs.o drivers/platform/chrome/cros_ec_sysfs.mod.o;  true

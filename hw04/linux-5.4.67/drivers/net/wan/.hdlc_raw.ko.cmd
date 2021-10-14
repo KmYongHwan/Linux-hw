@@ -1,0 +1,1 @@
+cmd_drivers/net/wan/hdlc_raw.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/wan/hdlc_raw.ko drivers/net/wan/hdlc_raw.o drivers/net/wan/hdlc_raw.mod.o;  true

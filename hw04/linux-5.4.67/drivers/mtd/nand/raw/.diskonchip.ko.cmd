@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/raw/diskonchip.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/nand/raw/diskonchip.ko drivers/mtd/nand/raw/diskonchip.o drivers/mtd/nand/raw/diskonchip.mod.o;  true

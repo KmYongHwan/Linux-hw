@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/devices/tsi721_mport.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o drivers/rapidio/devices/tsi721_mport.o drivers/rapidio/devices/tsi721.o drivers/rapidio/devices/tsi721_dma.o

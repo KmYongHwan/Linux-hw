@@ -1,0 +1,1 @@
+cmd_drivers/phy/marvell/phy-pxa-28nm-usb2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/phy/marvell/phy-pxa-28nm-usb2.ko drivers/phy/marvell/phy-pxa-28nm-usb2.o drivers/phy/marvell/phy-pxa-28nm-usb2.mod.o;  true

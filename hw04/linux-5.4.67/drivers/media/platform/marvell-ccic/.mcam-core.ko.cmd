@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/marvell-ccic/mcam-core.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/media/platform/marvell-ccic/mcam-core.ko drivers/media/platform/marvell-ccic/mcam-core.o drivers/media/platform/marvell-ccic/mcam-core.mod.o;  true

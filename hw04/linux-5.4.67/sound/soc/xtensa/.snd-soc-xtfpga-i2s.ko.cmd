@@ -1,0 +1,1 @@
+cmd_sound/soc/xtensa/snd-soc-xtfpga-i2s.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o sound/soc/xtensa/snd-soc-xtfpga-i2s.ko sound/soc/xtensa/snd-soc-xtfpga-i2s.o sound/soc/xtensa/snd-soc-xtfpga-i2s.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/maps/sbc_gxx.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/mtd/maps/sbc_gxx.ko drivers/mtd/maps/sbc_gxx.o drivers/mtd/maps/sbc_gxx.mod.o;  true

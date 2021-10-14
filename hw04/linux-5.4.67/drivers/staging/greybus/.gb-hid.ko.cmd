@@ -1,0 +1,1 @@
+cmd_drivers/staging/greybus/gb-hid.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/staging/greybus/gb-hid.ko drivers/staging/greybus/gb-hid.o drivers/staging/greybus/gb-hid.mod.o;  true

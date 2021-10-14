@@ -1,0 +1,1 @@
+cmd_drivers/net/fddi/skfp/skfp.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/fddi/skfp/skfp.ko drivers/net/fddi/skfp/skfp.o drivers/net/fddi/skfp/skfp.mod.o;  true

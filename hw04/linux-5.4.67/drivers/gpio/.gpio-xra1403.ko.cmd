@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-xra1403.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/gpio/gpio-xra1403.ko drivers/gpio/gpio-xra1403.o drivers/gpio/gpio-xra1403.mod.o;  true

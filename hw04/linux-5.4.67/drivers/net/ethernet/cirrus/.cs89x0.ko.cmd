@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cirrus/cs89x0.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o drivers/net/ethernet/cirrus/cs89x0.ko drivers/net/ethernet/cirrus/cs89x0.o drivers/net/ethernet/cirrus/cs89x0.mod.o;  true
