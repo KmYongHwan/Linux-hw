@@ -1,0 +1,11 @@
+hw04/**/*.rst
+hw04/**/*.txt
+hw04/**/*.map
+hw04/**/*.pem
+hw04/**/*.builtin
+hw04/**/*.order
+hw04/**/*.o
+hw04/**/*.debug
+hw04/**/*.platforms
+hw04/**/*.postlink
+hw04/linux-5.4.67/vmlinux
